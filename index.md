@@ -1,8 +1,8 @@
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
-
----
-
 ![Banner](/images/banner.jpg)
+
+# Home
+
+[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
 
 # Hi, I'm Nico Alfianto 👋
 
