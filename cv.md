@@ -5,9 +5,9 @@
 # Nico Alfianto
 
 <p style="font-size:18px; line-height:1.6;">
-🎓 Information Systems Student<br>
-📊 Data Analysis & System Design Enthusiast<br>
-🗄️ Passionate about Database & Business Intelligence
+*Information Systems Student*<br>
+*Data Analysis & System Design Enthusiast*<br>
+*Passionate about Database & Business Intelligence*
 </p>
 
 I am an Information Systems student with interests in Data Analytics, Business Intelligence, Database Management, and System Analysis. I enjoy transforming raw data into actionable insights through analytical thinking, data visualization, and business-oriented problem solving.
@@ -16,11 +16,11 @@ I am an Information Systems student with interests in Data Analytics, Business I
 
 ## Contact
 
-📧 Email: [alfiantonico@gmail.com](mailto:alfiantonico@gmail.com)
+Email: [alfiantonico@gmail.com](mailto:alfiantonico@gmail.com)
 
-💼 LinkedIn: https://www.linkedin.com/in/nico-alfianto
+LinkedIn: https://www.linkedin.com/in/nico-alfianto
 
-💻 GitHub: https://github.com/nico-alfianto
+GitHub: https://github.com/nico-alfianto
 
 ---
 
