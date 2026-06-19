@@ -50,23 +50,23 @@ actionable insights using SQL, Python, and Power BI.
 **Solution:** Built RFM model + Logistic Regression in Python to score 10K+ customers.  
 **Impact:** Enabled 23% increase in campaign ROI.  
 **Tech:** Python, Pandas, Scikit-learn, Matplotlib  
-→ [[View Details](/portfolio/#customer-value-analysis)]
+[![GitHub Repo](https://img.shields.io/badge/View_on_GitHub!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto/customer-value-analysis-rfm-logistic-regression)
 
 ### Customer Churn Analysis — Telco Dataset
 **Problem:** 27% monthly churn rate hurting revenue.  
 **Solution:** Analyzed churn drivers using SQL + visualized in Power BI dashboard.  
 **Impact:** Provided 5 actionable retention strategies. Projected churn reduction 18%.  
 **Tech:** SQL, Power BI, DAX  
-→ [[View Details](/portfolio/#customer-churn-analysis)]
+[![GitHub Repo](https://img.shields.io/badge/View_on_GitHub!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto/customer-churn-analysis)
 
 ### Sales Performance Dashboard — Superstore
 **Problem:** No visibility on regional sales performance across $2.3M revenue.  
 **Solution:** End-to-end BI dashboard with YoY growth, profit analysis, and KPI tracking.  
 **Impact:** Reduced reporting time from 3 days to 10 minutes for management.  
 **Tech:** Power BI, Power Query, DAX  
-→ [[View Details](/portfolio/#sales-performance-analysis)]
+[![GitHub Repo](https://img.shields.io/badge/View_on_GitHub!-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto/sales-performance-analysis)
 
-[[View All Projects →](/portfolio)]
+[![View All Projects](https://img.shields.io/badge/View_All_Projects!-4285F4?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto/portfolio-master)
 
 ---
 
