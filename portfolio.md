@@ -45,9 +45,11 @@ Without proper customer segmentation, marketing resources may be distributed ine
 
 *Distribution of customers across RFM segments.*
 
+
 ![Customer Retention Cohort Analysis](/images/cohort-analysis.png)
 
 *Cohort analysis showing customer retention patterns over time.*
+
 
 ## Key Findings
 
@@ -110,13 +112,16 @@ Customer acquisition is often more expensive than customer retention. Understand
 
 *Customer churn distribution and key factors influencing churn.*
 
+
 ![Customer Churn Analysis](/images/churn-correlations.png)
 
 *Customer churn correlations and key factors influencing churn.*
 
+
 ![Customer Churn Analysis](/images/churn-dash.png)
 
 *Customer churn dashboard.*
+
 
 ## Key Findings
 
@@ -177,13 +182,16 @@ This project investigates performance across product categories and geographical
 
 *Sales and profitability performance across regions.*
 
+
 ![Sales Performance Dashboard](/images/sales-category.png)
 
 *Sales and profitability performance across categories.*
 
+
 ![Sales Performance Dashboard](/images/profit-category.png)
 
 *Sales and profitability performance across categories and regions.*
+
 
 ## Key Findings
 
