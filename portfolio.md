@@ -1,7 +1,5 @@
 # Portfolio
 
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
-
 ---
 
 # Data Analytics Portfolio
