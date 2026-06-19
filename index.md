@@ -2,11 +2,14 @@
 
 # Home
 
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
 
 # Hi, I'm Nico Alfianto 👋
 
-**Information Systems Student | Data Analysis & System Design Enthusiast**
+<p style="font-size:18px; line-height:1.6;">
+🎓 Information Systems Student<br>
+📊 Data Analysis & System Design Enthusiast<br>
+🗄️ Passionate about Database & Business Intelligence
+</p>
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=mysql\&logoColor=white)
