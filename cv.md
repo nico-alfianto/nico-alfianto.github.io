@@ -1,6 +1,8 @@
-# Curriculum Vitae
-
 ---
+layout: default
+title: CV
+---
+
 
 # Nico Alfianto
 
