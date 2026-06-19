@@ -70,10 +70,10 @@ Customer Segmentation • RFM Analysis • Logistic Regression • Predictive An
 
 ### Links
 
-🔗 Repository  
+Repository  
 https://github.com/nico-alfianto/customer-value-analysis-rfm-logistic-regression  
 
-📓 Notebook  
+Notebook  
 https://colab.research.google.com/drive/14EapA2vyTeJnMQtEw4exe2bffuW10ub1  
 
 ---
@@ -136,10 +136,10 @@ Customer Analytics • Data Visualization • EDA • Business Analytics • CRI
 
 ### Links
 
-🔗 Repository  
+Repository  
 https://github.com/nico-alfianto/customer-churn-analysis  
 
-📓 Notebook  
+Notebook  
 https://colab.research.google.com/drive/11i-_gJWvSGnqqGsAzDdNsH9OomWPYVve  
 
 ---
@@ -210,10 +210,10 @@ Business Intelligence • KPI Analysis • Sales Analytics • Profitability Ana
 
 ### Links
 
-🔗 Repository  
+Repository  
 https://github.com/nico-alfianto/sales-performance-analysis  
 
-📓 Notebook  
+Notebook  
 https://colab.research.google.com/drive/1W_fZ6K0hR_Ge0kylzZhd3RXuiq_urYld  
 
 ---
@@ -242,10 +242,10 @@ Web Development • Git Workflow • Documentation • Portfolio Design
 
 ### Links
 
-🔗 Repository  
+Repository  
 https://github.com/nico-alfianto/portfolio-master  
 
-🌐 Website  
+Website  
 https://nico-alfianto.github.io  
 
 ---
