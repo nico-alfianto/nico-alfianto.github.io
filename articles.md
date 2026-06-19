@@ -1,3 +1,9 @@
+---
+layout: default
+title: Articles
+---
+
+
 # Articles & Writing
 
 ---
@@ -81,6 +87,8 @@ This section demonstrates:
 
 ## Contact
 
-[LinkedIn Profile](https://www.linkedin.com/in/nico-alfianto)  
-[GitHub Profile](https://github.com/nico-alfianto)  
-[Send Email](mailto:alfiantonico9@gmail.com)
+[![Email](https://img.shields.io/badge/Email-alfiantonico9@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alfiantonico9@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nico--alfianto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-alfianto)
+[![GitHub](https://img.shields.io/badge/GitHub-nico--alfianto-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto)
+
+---
