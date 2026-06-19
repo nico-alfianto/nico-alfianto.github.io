@@ -1,8 +1,14 @@
-# CV & Certifications
+# Curriculum Vitae
 
 [Home](/) | [Portfolio](/portfolio) | [CV](/cv)
 
 ---
+
+## Contact Me
+
+- LinkedIn: https://www.linkedin.com/in/nico-alfianto
+- GitHub: https://github.com/nico-alfianto
+- Email: alfiantonico(@gmail.com
 
 ## Download CV & Certifications
 
