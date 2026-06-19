@@ -18,15 +18,12 @@ a:hover {
   text-decoration: underline;
 }
 
-/* HIDE FOOTER GITHUB PAGES THEME */
-.site-footer {
-  display: none;
-}
-
-/* HIDE MINIMAL THEME FOOTER */
-.site-footer,
+/* HIDE ALL MINIMAL THEME FOOTER ELEMENTS */
 footer,
+.site-footer,
 footer small,
-footer p {
+footer p,
+footer span,
+footer a {
   display: none !important;
 }
