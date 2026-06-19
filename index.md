@@ -1,6 +1,6 @@
 ![Banner](/images/banner.jpg)
 
-# HOME
+# Home
 
 ---
 
