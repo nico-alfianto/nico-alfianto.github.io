@@ -1,12 +1,14 @@
 # Curriculum Vitae
 
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
-
 ---
 
 # Nico Alfianto
 
-**Information Systems Student | Data Analysis & System Design Enthusiast**
+<p style="font-size:18px; line-height:1.6;">
+🎓 Information Systems Student<br>
+📊 Data Analysis & System Design Enthusiast<br>
+🗄️ Passionate about Database & Business Intelligence
+</p>
 
 I am an Information Systems student with interests in Data Analytics, Business Intelligence, Database Management, and System Analysis. I enjoy transforming raw data into actionable insights through analytical thinking, data visualization, and business-oriented problem solving.
 
