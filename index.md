@@ -86,7 +86,7 @@ Customer retention analysis focused on identifying churn drivers and developing 
 ### Sales Performance Analysis – Superstore Dataset
 Sales and profitability analysis that transforms transaction data into strategic business insights.
 
-Explore all projects on the Portfolio page → [/portfolio](portfolio)
+Explore all projects on the Portfolio page → [Portfolio](portfolio)
 
 ---
 
