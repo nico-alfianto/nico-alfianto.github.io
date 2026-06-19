@@ -1,148 +1,77 @@
-/* =========================
-   BASE STYLE
-========================= */
-
+/* BASE */
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #ffffff;
-  color: #2c3e50;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
-}
-
-h1, h2, h3 {
+  background: #fff;
   color: #2c3e50;
 }
 
-a {
-  color: #0366d6;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* =========================
-   LAYOUT WRAPPER
-========================= */
-
+/* LAYOUT */
 .wrapper {
   display: flex;
   max-width: 1100px;
-  margin: 0 auto;
+  margin: auto;
   padding: 20px;
   gap: 30px;
 }
 
-/* =========================
-   SIDEBAR
-========================= */
-
+/* SIDEBAR */
 header {
   width: 260px;
-  flex-shrink: 0;
   text-align: center;
 }
 
-/* PROFILE IMAGE */
+/* PROFILE */
 .profile-img {
   width: 110px;
   height: 110px;
   border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
   border: 3px solid #0366d6;
+  margin-bottom: 10px;
 }
 
-/* DESCRIPTION */
+/* TEXT */
 .sidebar-desc {
   font-size: 13px;
   color: #555;
   margin-bottom: 20px;
+  white-space: pre-line;
 }
 
-/* =========================
-   MENU SIDEBAR
-========================= */
-
+/* MENU */
 .sidebar-menu {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* BADGE STYLE */
+/* BADGE */
 .badge {
-  display: block;
   padding: 10px 14px;
   border-radius: 12px;
-  font-size: 14px;
-  font-weight: 500;
   background: #f5f7fb;
   border: 1px solid #e1e8ed;
   color: #2c3e50;
   text-decoration: none;
-  transition: all 0.25s ease;
+  transition: 0.2s;
 }
 
-/* HOVER EFFECT */
+/* HOVER */
 .badge:hover {
   background: #0366d6;
-  color: #ffffff;
+  color: white;
   transform: translateX(5px);
-  border-color: #0366d6;
 }
 
-/* ACTIVE STATE */
-.badge.active {
-  background: #0366d6;
-  color: #ffffff;
-  border-color: #0366d6;
-}
-
-/* =========================
-   CONTENT AREA
-========================= */
-
+/* CONTENT */
 section {
   flex: 1;
-  background: #ffffff;
   padding: 20px;
 }
 
-/* =========================
-   FOOTER
-========================= */
-
-footer {
-  text-align: center;
-  font-size: 12px;
-  color: #777;
-  margin-top: 40px;
-}
-
-/* HIDE DEFAULT THEME FOOTER */
-.site-footer,
-footer small {
-  display: none;
-}
-
-/* =========================
-   RESPONSIVE
-========================= */
-
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;
-  }
-
-  header {
-    width: 100%;
-  }
-
-  section {
-    padding: 10px;
   }
 }
