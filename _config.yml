@@ -1,31 +1,35 @@
+# Site settings
 title: Nico Alfianto
+description: Information Systems Student | Data Analyst | System Designer | BI Enthusiast
+logo: /assets/img/profile.jpg  # ganti sesuai path foto lo
+email: alfiantonico9@gmail.com
+url: "https://nico-alfianto.github.io" # ganti sama username.github.io lo
+baseurl: "" # kosongin kalo deploy di username.github.io
 
-logo: /images/nico.jpg
-
-description: >
-  Information Systems Student<br>
-  Data Analyst | System Designer | BI Enthusiast
-
-url: https://nico-alfianto.github.io
-baseurl: "" # Kosongin aja karena pake domain root
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-    - jekyll-remote-theme
-
-# Biar menu muncul
-header_pages:
-    - index.md
-    - portfolio.md
-    - cv.md
-    - articles.md
-
-# Biar markdown render gambar & HTML bener
+# Build settings
 markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-  syntax_highlighter: rouge
+theme: jekyll-theme-minimal
+plugins:
+    - jekyll-seo-tag
 
-# Biar permalink rapi
-permalink: /:title/
+# Exclude dari proses Jekyll
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor/
+    - README.md
+
+# Defaults buat halaman
+defaults:
+    - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Social links buat jekyll-seo-tag
+social:
+  name: Nico Alfianto
+  links:
+        - https://github.com/nico-alfianto
+        - https://www.linkedin.com/in/nico-alfianto
