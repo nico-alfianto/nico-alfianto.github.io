@@ -1,76 +1,45 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en-US">
+
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-   {% if site.google_analytics %}
-   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-   <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '{{ site.google_analytics }}');
-   </script>
-   {% endif %}
+  {% seo %}
 
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-   {% seo %}
-
-   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 
 <body>
 
 <div class="wrapper">
 
-   <!-- SIDEBAR -->
-   <header>
+  <!-- SIDEBAR -->
+  <header>
 
-      {% if site.logo %}
-      <img src="{{ site.logo | relative_url }}" alt="Logo" class="profile-img">
-      {% endif %}
+    {% if site.logo %}
+    <img src="{{ site.logo | relative_url }}" class="profile-img">
+    {% endif %}
 
-      <h1>
-         <a href="{{ "/" | absolute_url }}">
-            {{ site.title }}
-         </a>
-      </h1>
+    <h1>{{ site.title }}</h1>
 
-      <p class="sidebar-desc">{{ site.description }}</p>
+    <!-- IMPORTANT: ONLY TEXT DESCRIPTION -->
+    <p class="sidebar-desc">{{ site.description }}</p>
 
-      <!-- MENU BADGE ONLY -->
-      <nav class="sidebar-menu">
+    <!-- MENU (FIXED) -->
+    <nav class="sidebar-menu">
+      <a class="badge" href="/">Home</a>
+      <a class="badge" href="/portfolio">Portfolio</a>
+      <a class="badge" href="/cv">CV</a>
+      <a class="badge" href="/articles">Articles</a>
+    </nav>
 
-         <a class="badge" href="/">Home</a>
-         <a class="badge" href="/portfolio">Portfolio</a>
-         <a class="badge" href="/cv">CV</a>
-         <a class="badge" href="/articles">Articles</a>
+  </header>
 
-      </nav>
-
-   </header>
-
-   <!-- CONTENT -->
-   <section>
-      {{ content }}
-   </section>
-
-   <!-- FOOTER -->
-   <footer>
-      {% if site.github.is_project_page %}
-      <p>
-         This project is maintained by
-         <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
-      </p>
-      {% endif %}
-
-      <p>
-         <small>Hosted on GitHub Pages — Theme by orderedlist</small>
-      </p>
-   </footer>
+  <!-- CONTENT -->
+  <section>
+    {{ content }}
+  </section>
 
 </div>
 
