@@ -1,12 +1,10 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   {% seo %}
-
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 
@@ -14,7 +12,7 @@
 
 <div class="wrapper">
 
-  <!-- SIDEBAR -->
+  <!-- SIDEBAR CUSTOM (FULL CONTROL) -->
   <header>
 
     {% if site.logo %}
@@ -23,10 +21,11 @@
 
     <h1>{{ site.title }}</h1>
 
-    <!-- IMPORTANT: ONLY TEXT DESCRIPTION -->
-    <p class="sidebar-desc">{{ site.description }}</p>
+    <p class="sidebar-desc">
+      Information Systems Student<br>
+      Data Analyst | System Designer | BI Enthusiast
+    </p>
 
-    <!-- MENU (FIXED) -->
     <nav class="sidebar-menu">
       <a class="badge" href="/">Home</a>
       <a class="badge" href="/portfolio">Portfolio</a>
