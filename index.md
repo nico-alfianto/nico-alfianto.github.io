@@ -132,18 +132,18 @@ Science Program (IPA) (2018 – 2021)
 
 ## Contact Me
 
-### 📧 Email
-👉 [Send Email](mailto:alfiantonico@gmail.com)
+### Email
+[Send Email](mailto:alfiantonico@gmail.com)
 
-### 💼 LinkedIn
-👉 [Visit LinkedIn](https://www.linkedin.com/in/nico-alfianto)
+### LinkedIn
+[Visit LinkedIn](https://www.linkedin.com/in/nico-alfianto)
 
-### 💻 GitHub
-👉 [Visit GitHub](https://github.com/nico-alfianto)
+### GitHub
+[Visit GitHub](https://github.com/nico-alfianto)
 
 ---
 
 ## Resume
 
-📄 [View CV](/cv)  
-📥 [Download CV](/pdf/Nico_Alfianto_CV.pdf)
+[View CV](/cv)  
+[Download CV](/pdf/Nico_Alfianto_CV.pdf)
