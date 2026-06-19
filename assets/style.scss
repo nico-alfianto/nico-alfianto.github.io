@@ -5,13 +5,13 @@
 body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
-  background: #ffffff;
+  background: #f5f7fb;
   color: #2c3e50;
   line-height: 1.6;
 }
 
 /* =========================
-   LAYOUT WRAPPER
+   WRAPPER
 ========================= */
 
 .wrapper {
@@ -19,23 +19,28 @@ body {
   max-width: 1100px;
   margin: auto;
   padding: 30px;
-  gap: 40px; /* 🔥 JARAK ANTARA SIDEBAR & CONTENT */
+  gap: 40px;
 }
 
 /* =========================
-   SIDEBAR
+   SIDEBAR CARD (PRO LOOK)
 ========================= */
 
 header {
-  width: 260px;
+  width: 270px;
   flex-shrink: 0;
-  text-align: center;
 
-  /* 🔥 BIAR ADA RUANG DALAM SIDEBAR */
-  padding: 20px;
-  background: #f9fbfd;
-  border-radius: 16px;
+  position: sticky; /* 🔥 FIX: sticky sidebar */
+  top: 20px;
+
+  background: #ffffff;
+  padding: 25px;
+
+  border-radius: 18px;
   border: 1px solid #eaeef3;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.06); /* 🔥 modern shadow */
+  text-align: center;
 }
 
 /* PROFILE IMAGE */
@@ -44,16 +49,15 @@ header {
   height: 110px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #0366d6;
 
-  /* 🔥 JARAK BAWAH FOTO */
+  border: 3px solid #0366d6;
   margin-bottom: 15px;
 }
 
-/* TITLE */
+/* NAME */
 header h1 {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 /* DESCRIPTION */
@@ -61,33 +65,37 @@ header h1 {
   font-size: 13px;
   color: #555;
   margin-bottom: 25px;
-
   line-height: 1.5;
 }
 
 /* =========================
-   MENU BADGE
+   MENU
 ========================= */
 
 .sidebar-menu {
   display: flex;
   flex-direction: column;
-  gap: 12px; /* 🔥 JARAK ANTAR MENU */
+  gap: 12px;
 }
 
+/* BADGE STYLE */
 .badge {
   display: block;
-  padding: 10px 14px;
+  padding: 11px 14px;
+
   border-radius: 12px;
-  background: #ffffff;
+  background: #f7f9fc;
+
   border: 1px solid #e1e8ed;
+
   color: #2c3e50;
   text-decoration: none;
   font-weight: 500;
-  transition: 0.2s ease;
+
+  transition: all 0.25s ease;
 }
 
-/* HOVER */
+/* HOVER EFFECT */
 .badge:hover {
   background: #0366d6;
   color: #ffffff;
@@ -95,14 +103,24 @@ header h1 {
   border-color: #0366d6;
 }
 
+/* ACTIVE MENU */
+.badge.active {
+  background: #0366d6;
+  color: #fff;
+  border-color: #0366d6;
+}
+
 /* =========================
-   CONTENT
+   CONTENT AREA
 ========================= */
 
 section {
   flex: 1;
-  padding: 20px;
   background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  border: 1px solid #eaeef3;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.04);
 }
 
 /* =========================
@@ -112,7 +130,7 @@ section {
 footer {
   text-align: center;
   font-size: 12px;
-  color: #777;
+  color: #888;
   margin-top: 40px;
 }
 
@@ -127,6 +145,8 @@ footer {
   }
 
   header {
+    position: relative;
+    top: auto;
     width: 100%;
   }
 }
