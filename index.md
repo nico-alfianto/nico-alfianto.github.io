@@ -102,7 +102,7 @@ These certifications helped build my understanding of data analysis, programming
 
 ### Peer Educator
 
-YHP (Youth Health Program)
+Youth Health Program (YHP)
 
 2019
 
@@ -110,7 +110,7 @@ As a Peer Educator, I participated in educational and awareness activities relat
 
 ### Member
 
-FADKAB
+Forum Anak Daerah Kabupaten Bogor (FADKAB)
 
 2019
 
