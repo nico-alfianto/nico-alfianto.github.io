@@ -19,3 +19,9 @@ description: >
 
   🔗 <a href="https://github.com/nico-alfianto">GitHub</a><br>
   💼 <a href="https://www.linkedin.com/in/nico-alfianto">LinkedIn</a>
+
+  
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme
+google_analytics: UA-000000-0 # your Google Analytics tracking ID here
