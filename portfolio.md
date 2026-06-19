@@ -1,6 +1,8 @@
-# Portfolio
-
 ---
+layout: default
+title: Portfolio
+---
+
 
 # Data Analytics Portfolio
 
