@@ -17,3 +17,8 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* HIDE FOOTER GITHUB PAGES THEME */
+.site-footer {
+  display: none;
+}
