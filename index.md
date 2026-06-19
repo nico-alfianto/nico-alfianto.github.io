@@ -86,7 +86,7 @@ Customer retention analysis focused on identifying churn drivers and developing 
 ### Sales Performance Analysis – Superstore Dataset
 Sales and profitability analysis that transforms transaction data into strategic business insights.
 
-Explore all projects on the Portfolio page → [Portfolio](portfolio)
+Explore all projects on the Portfolio page → [![Portfolio](https://img.shields.io/badge/View-Portfolio-2E8B57?style=for-the-badge&logo=github&logoColor=white)](/portfolio)
 
 ---
 
@@ -132,18 +132,16 @@ Science Program (IPA) (2018 – 2021)
 
 ## Contact Me
 
-### Email
-[Send Email](mailto:alfiantonico@gmail.com)
+[![Email](https://img.shields.io/badge/Email-alfiantonico@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alfiantonico@gmail.com)
 
-### LinkedIn
-[Visit LinkedIn](https://www.linkedin.com/in/nico-alfianto)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nico--alfianto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-alfianto)
 
-### GitHub
-[Visit GitHub](https://github.com/nico-alfianto)
+[![GitHub](https://img.shields.io/badge/GitHub-nico--alfianto-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto)
 
 ---
 
 ## Resume
 
-[View CV](/cv)  
-[Download CV](/pdf/Nico_Alfianto_CV.pdf)
+[![View Online CV](https://img.shields.io/badge/View_CV-Online-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](/cv)  
+
+[![Download PDF](https://img.shields.io/badge/Download_CV-PDF-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](/pdf/Nico_Alfianto_CV.pdf)
