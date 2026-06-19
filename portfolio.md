@@ -4,263 +4,230 @@
 
 ---
 
-# Projects
+# Data Analytics Portfolio
 
-This page showcases selected projects related to Data Analytics, Business Intelligence, Customer Analytics, and Machine Learning. These projects demonstrate my ability to transform raw data into actionable business insights using analytical methods, statistical techniques, and data visualization.
+Welcome to my project portfolio.
+
+These projects demonstrate my ability to transform raw data into actionable business insights using data analytics, business intelligence, customer analytics, machine learning, and data visualization techniques.
 
 ---
 
 # Customer Value Analysis – RFM & Logistic Regression
 
-## Project Overview
-
-This project combines customer segmentation techniques and machine learning to identify high-value customers and support data-driven marketing strategies.
-
-Using Online Retail transaction data, the analysis answers two important business questions:
-
-* Which customers contribute the most revenue?
-* Can high-value customers be identified early using predictive analytics?
-
-The project integrates RFM (Recency, Frequency, Monetary) Analysis with Logistic Regression modeling to help businesses improve customer retention, targeting, and revenue growth.
-
-## Business Problem
-
-Businesses often have thousands of customers, but only a small percentage contribute the majority of revenue.
-
-Without proper customer segmentation, marketing resources may be distributed inefficiently. This project aims to identify valuable customer groups and build a predictive model that can detect high-potential customers before they become top spenders.
-
-## Tools & Technologies
-
-* Python
-* Pandas
-* NumPy
-* Scikit-Learn
-* Matplotlib
-* Seaborn
-* Google Colab
-
-## Project Visualizations
+### Customer Segmentation & Predictive Analytics
 
 ![Customer Segments](/images/customer-segments.png)
 
 *Distribution of customers across RFM segments.*
 
-
 ![Customer Retention Cohort Analysis](/images/cohort-analysis.png)
 
-*Cohort analysis showing customer retention patterns over time.*
+*Customer retention patterns across different cohorts over time.*
 
+## Business Objective
 
-## Key Findings
+Identify high-value customers and predict future customer value using RFM Analysis and Logistic Regression.
 
-* A relatively small group of customers contributes a significant portion of total revenue.
-* Monetary value is the strongest predictor of customer value.
-* Purchase frequency is the second most important factor.
-* RFM analysis successfully separates customers into actionable segments.
-* Logistic Regression can identify potential high-value customers early in their lifecycle.
+## Tools
+
+Python • Pandas • NumPy • Scikit-Learn • Matplotlib • Seaborn • Google Colab
+
+## Key Insights
+
+✅ A small percentage of customers generates the majority of revenue
+
+✅ Monetary value is the strongest indicator of customer value
+
+✅ Purchase frequency significantly impacts future customer behavior
+
+✅ RFM segmentation successfully identifies actionable customer groups
+
+✅ Logistic Regression effectively predicts high-value customers
 
 ## Business Recommendations
 
-* Prioritize retention programs for high-value customers.
-* Develop targeted campaigns for mid-value customers.
-* Implement low-cost reactivation strategies for low-value customers.
-* Use predictive modeling to identify and nurture promising customers early.
+* Prioritize VIP customer retention programs
+* Create targeted campaigns for medium-value segments
+* Implement reactivation strategies for low-value customers
+* Use predictive analytics to identify promising customers early
 
 ## Skills Demonstrated
 
-* Customer Segmentation
-* RFM Analysis
-* Predictive Analytics
-* Logistic Regression
-* Feature Engineering
-* SQL Analytics
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Business Insight Generation
+Customer Segmentation • RFM Analysis • Logistic Regression • Predictive Analytics • Feature Engineering • EDA • Business Insights
 
-Repository:
+### Links
+
+🔗 Repository
+
 https://github.com/nico-alfianto/customer-value-analysis-rfm-logistic-regression
 
-Notebook:
+📓 Notebook
+
 https://colab.research.google.com/drive/14EapA2vyTeJnMQtEw4exe2bffuW10ub1
 
 ---
 
-# Customer Churn Analysis – Telco Dataset
+# Customer Churn Analysis
 
-## Project Overview
-
-Customer churn is one of the most important business challenges in the telecommunications industry. This project analyzes customer behavior using the Telco Customer Churn dataset to identify the key factors that influence customer attrition.
-
-The objective is to discover why customers leave and provide actionable recommendations to improve customer retention.
-
-## Business Problem
-
-Customer acquisition is often more expensive than customer retention. Understanding churn drivers enables organizations to develop more effective retention strategies and reduce revenue loss.
-
-## Tools & Technologies
-
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Google Colab
-
-## Project Visualizations
+### Telco Customer Retention Analytics
 
 ![Customer Churn Analysis](/images/churn-distributions.png)
 
-*Customer churn distribution and key factors influencing churn.*
-
+*Customer churn distribution and key churn drivers.*
 
 ![Customer Churn Analysis](/images/churn-correlations.png)
 
-*Customer churn correlations and key factors influencing churn.*
+*Correlation analysis of churn factors.*
 
+![Customer Churn Dashboard](/images/churn-dash.png)
 
-![Customer Churn Analysis](/images/churn-dash.png)
+*Interactive churn dashboard.*
 
-*Customer churn dashboard.*
+## Business Objective
 
+Analyze customer behavior and identify the factors driving customer churn.
 
-## Key Findings
+## Tools
 
-* Customers with Month-to-Month contracts have the highest churn rates.
-* Customers with shorter tenure are more likely to leave.
-* Higher monthly charges are associated with increased churn risk.
-* Fiber optic customers demonstrate a higher tendency to churn.
+Python • Pandas • Matplotlib • Seaborn • Google Colab
+
+## Key Insights
+
+✅ Month-to-Month contracts have the highest churn rates
+
+✅ New customers are more likely to churn
+
+✅ Higher monthly charges increase churn risk
+
+✅ Fiber Optic users show higher churn tendencies
 
 ## Business Recommendations
 
-* Encourage customers to switch to longer contract plans.
-* Improve onboarding programs for new customers.
-* Review pricing strategies for premium services.
-* Develop targeted retention programs for at-risk customer groups.
+* Encourage long-term contracts
+* Improve onboarding processes
+* Review pricing strategies
+* Build targeted retention campaigns
 
 ## Skills Demonstrated
 
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* Data Visualization
-* Business Analytics
-* Customer Analytics
-* CRISP-DM Methodology
-* Business Recommendation Development
+Customer Analytics • Data Visualization • EDA • Business Analytics • CRISP-DM • Business Recommendations
 
-Repository:
+### Links
+
+🔗 Repository
+
 https://github.com/nico-alfianto/customer-churn-analysis
 
-Notebook:
+📓 Notebook
+
 https://colab.research.google.com/drive/11i-_gJWvSGnqqGsAzDdNsH9OomWPYVve
 
 ---
 
-# Sales Performance Analysis – Superstore Dataset
+# Sales Performance Analysis
 
-## Project Overview
+### Retail Business Intelligence Dashboard
 
-This project analyzes retail transaction data from a Superstore business to evaluate sales performance, profitability, and regional business performance.
+![Sales by Region](/images/sales-region.png)
 
-The objective is to transform raw sales data into meaningful business insights that can support strategic decision-making and improve company profitability.
+*Sales and profitability performance by region.*
 
-## Business Problem
+![Sales by Category](/images/sales-category.png)
 
-Retail companies generate large amounts of sales data every day. However, without proper analysis, it can be difficult to determine which products, categories, and regions contribute most significantly to revenue and profit.
+*Sales performance across product categories.*
 
-This project investigates performance across product categories and geographical regions to identify growth opportunities.
+![Profitability Analysis](/images/profit-category.png)
 
-## Tools & Technologies
+*Profitability comparison by category.*
 
-* Python
-* Pandas
-* Matplotlib
-* Google Colab
+## Business Objective
 
-## Project Visualizations
+Evaluate sales performance, profitability, and regional performance to support strategic business decisions.
 
-![Sales Performance Dashboard](/images/sales-region.png)
+## Tools
 
-*Sales and profitability performance across regions.*
+Python • Pandas • Matplotlib • Google Colab
 
+## KPI Summary
 
-![Sales Performance Dashboard](/images/sales-category.png)
-
-*Sales and profitability performance across categories.*
-
-
-![Sales Performance Dashboard](/images/profit-category.png)
-
-*Sales and profitability performance across categories and regions.*
-
-
-## Key Findings
-
-### Overall Performance
-
-* Total Sales: $2.29 Million
-* Total Profit: $286 Thousand
+* Total Sales: $2.29M
+* Total Profit: $286K
 * Profit Margin: 12.47%
 
-### Category Performance
+## Key Insights
 
-* Technology generated the highest sales and profit.
-* Office Supplies maintained stable profitability.
-* Furniture generated strong sales but lower profit margins.
+✅ Technology generated the highest revenue and profit
 
-### Regional Performance
+✅ Office Supplies maintained stable profitability
 
-* West Region produced the highest sales revenue.
-* South Region recorded the lowest sales performance.
+✅ Furniture produced strong sales but lower margins
+
+✅ West Region delivered the strongest performance
+
+✅ South Region showed the lowest sales performance
 
 ## Business Recommendations
 
-* Expand investment in the Technology category.
-* Improve pricing and cost management within Furniture.
-* Strengthen sales initiatives in the South Region.
-* Continue supporting high-performing regions such as West and East.
-* Monitor profitability alongside revenue growth.
+* Increase investment in Technology products
+* Improve Furniture profitability
+* Strengthen sales strategy in South Region
+* Continue supporting high-performing regions
 
 ## Skills Demonstrated
 
-* Data Cleaning
-* Business Analytics
-* KPI Analysis
-* Profitability Analysis
-* Sales Analytics
-* Data Visualization
-* Business Intelligence
+Business Intelligence • KPI Analysis • Sales Analytics • Profitability Analysis • Data Visualization
 
-Repository:
+### Links
+
+🔗 Repository
+
 https://github.com/nico-alfianto/sales-performance-analysis
 
-Notebook:
+📓 Notebook
+
 https://colab.research.google.com/drive/1W_fZ6K0hR_Ge0kylzZhd3RXuiq_urYld
 
 ---
 
 # Personal Portfolio Website
 
-## Project Overview
+### GitHub Pages & Jekyll Portfolio
 
-A personal portfolio website built using GitHub Pages and Jekyll to showcase my profile, certifications, projects, and professional development journey.
+## Project Description
 
-The website serves as a centralized platform to present my skills, achievements, and data analytics projects.
+A responsive portfolio website built using GitHub Pages and Jekyll to showcase projects, certifications, skills, and professional development activities.
 
 ## Technologies
 
-* GitHub Pages
-* Jekyll
-* Markdown
-* HTML/CSS
-* Git
+GitHub Pages • Jekyll • Markdown • HTML/CSS • Git
 
 ## Skills Demonstrated
 
-* Static Website Development
-* Git Version Control
-* GitHub Workflow
-* Portfolio Design
-* Documentation
+Website Development • Git Workflow • Documentation • Portfolio Design
 
-Repository:
+### Links
+
+🔗 Repository
+
 https://github.com/nico-alfianto/portfolio-master
+
+🌐 Website
+
+https://nico-alfianto.github.io/
+
+---
+
+# More Projects Coming Soon
+
+I continuously build new projects in:
+
+* Data Analytics
+* Business Intelligence
+* Machine Learning
+* SQL Analytics
+* Dashboard Development
+* Data Visualization
+
+Follow my GitHub for future updates:
+
+https://github.com/nico-alfianto
