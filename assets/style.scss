@@ -22,3 +22,11 @@ a:hover {
 .site-footer {
   display: none;
 }
+
+/* HIDE MINIMAL THEME FOOTER */
+.site-footer,
+footer,
+footer small,
+footer p {
+  display: none !important;
+}
