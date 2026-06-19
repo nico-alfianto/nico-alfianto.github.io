@@ -15,17 +15,17 @@
   margin-bottom: 15px;
 }
 
-/* SIDEBAR MENU */
+/* MENU */
 .sidebar-menu {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* BADGE STYLE */
+/* BADGE STYLE (PURE TEXT) */
 .badge {
   display: block;
-  padding: 10px 12px;
+  padding: 10px 14px;
   border-radius: 12px;
   font-size: 14px;
   font-weight: 500;
@@ -38,15 +38,15 @@
 
 /* HOVER EFFECT */
 .badge:hover {
-  transform: translateX(6px);
+  transform: translateX(5px);
   background: #0366d6;
-  color: white;
+  color: #ffffff;
   border-color: #0366d6;
 }
 
-/* ACTIVE STYLE (optional nanti bisa auto) */
+/* ACTIVE STATE (manual nanti) */
 .badge.active {
   background: #0366d6;
-  color: white;
+  color: #ffffff;
   border-color: #0366d6;
 }
