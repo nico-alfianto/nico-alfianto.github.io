@@ -3,15 +3,24 @@ title: Nico Alfianto
 logo: /images/nico.jpg
 
 description: >
-  Information Systems Student<br>
-  Data Analytics & BI Enthusiast<br>
-  BNSP Certified DBA<br><br>
-  <a href="https://www.linkedin.com/in/nico-alfianto">LinkedIn</a> |
-  <a href="https://github.com/nico-alfianto">GitHub</a>
+  🎓 Information Systems Student<br>
+  📊 Data Analyst & System Designer<br>
+  🗄️ Database & BI Enthusiast<br><br>
+
+  <hr>
+
+  <b>MENU</b><br>
+  🏠 <a href="/">Home</a><br>
+  📁 <a href="/portfolio">Portfolio</a><br>
+  📄 <a href="/cv">CV</a><br>
+  📝 <a href="/articles">Articles</a><br><br>
+
+  <hr>
+
+  <a href="https://github.com/nico-alfianto">GitHub</a><br>
+  <a href="https://www.linkedin.com/in/nico-alfianto">LinkedIn</a>
 
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
-- jekyll-remote-theme
-
-google_analytics:
+  - jekyll-remote-theme
