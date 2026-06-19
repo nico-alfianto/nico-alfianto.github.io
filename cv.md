@@ -21,14 +21,11 @@ I enjoy transforming raw data into meaningful insights through data processing, 
 
 ## Contact
 
-Email  
-[alfiantonico@gmail.com](mailto:alfiantonico@gmail.com)
+[![Email](https://img.shields.io/badge/Email-alfiantonico@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alfiantonico@gmail.com)
 
-LinkedIn  
-https://www.linkedin.com/in/nico-alfianto
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-nico--alfianto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nico-alfianto)
 
-GitHub  
-https://github.com/nico-alfianto
+[![GitHub](https://img.shields.io/badge/GitHub-nico--alfianto-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto)
 
 ---
 
@@ -110,7 +107,7 @@ Analysis of customer behavior to identify churn drivers and retention strategies
 Business Intelligence project analyzing sales, profit, and regional performance.
 
 View full projects here:  
-https://github.com/nico-alfianto/portfolio-master
+[![Portfolio Repo](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nico-alfianto/portfolio-master)
 
 ---
 
@@ -123,4 +120,4 @@ English (Professional Working Proficiency)
 
 ## Download CV
 
-📄 [Download CV](/pdf/Nico_Alfianto_CV.pdf)
+[![Download PDF](https://img.shields.io/badge/Download_CV-PDF-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](/pdf/Nico_Alfianto_CV.pdf)
