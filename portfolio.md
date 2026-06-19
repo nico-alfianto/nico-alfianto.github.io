@@ -1,57 +1,71 @@
-# Portfolio Projects
+# Portfolio
 
----
-
-## Navigation
-
-* [Home](/)
-* [CV & Certifications](/cv)
+[Home](/) | [Portfolio](/portfolio) | [CV](/cv)
 
 ---
 
 ## Personal Portfolio Website
 
-Personal portfolio website built using GitHub Pages and Jekyll.
+A personal portfolio website built using GitHub Pages and Jekyll.
 
-**Tools:**
+Repository:
+https://github.com/nico-alfianto/portfolio-master
+
+Technologies:
 
 * GitHub Pages
 * Jekyll
-* Git
-* GitHub
-
-**Repository:**
-https://github.com/nico-alfianto/portfolio-master
+* Markdown
+* HTML/CSS
 
 ---
 
-## Upcoming Projects
-
-The following projects will be published as part of my academic and professional development:
+## Academic & Personal Projects
 
 ### Data Analysis Projects
 
-* Data Cleaning & Preparation
+Future projects related to:
+
+* Data Cleaning
 * Exploratory Data Analysis (EDA)
-* Business Insight Analysis
+* Business Insights
+* Dashboard Development
 
-### SQL Projects
+### SQL & Database Projects
 
-* Database Query Analysis
-* Relational Database Design
-* SQL Reporting
+Future projects related to:
 
-### Power BI Projects
+* Database Design
+* SQL Query Optimization
+* Database Administration
+* Data Modeling
+
+### Power BI Dashboard Projects
+
+Future projects related to:
 
 * Interactive Dashboards
-* Business Intelligence Reports
+* Business Intelligence
+* KPI Monitoring
+* Data Visualization
 
-### System Analysis Projects
+### System Analysis & Design Projects
 
-* UML Diagram Design
-* ERD Development
+Future projects related to:
+
+* UML Diagrams
+* ERD Design
 * SDLC Documentation
+* System Requirements Analysis
 
 ---
 
-More projects will be added regularly throughout my academic journey.
+## Certifications
+
+* BNSP Certified Database Administrator (2026)
+* Database Systems Certification – Iner Corp (2025)
+* Data Science Basics – Dicoding (2024)
+* Python Basics – Dicoding (2024)
+* SQL Basics – Dicoding (2024)
+* Python Basics – Bisa AI (2024)
+* Data Analyst – RevoU (2023)
