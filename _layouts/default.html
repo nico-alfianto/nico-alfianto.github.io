@@ -10,90 +10,16 @@
   {% seo %}
 
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-  
-  <style>
-    /* Sidebar Contact Styling */
-    .sidebar-contact {
-      margin-top: 24px;
-      padding-top: 16px;
-      border-top: 1px solid #e1e4e8;
-    }
-    .sidebar-contact h3 {
-      font-size: 14px;
-      margin-bottom: 12px;
-      color: #586069;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-    }
-    .sidebar-contact a {
-      display: block;
-      margin-bottom: 8px;
-    }
-    .sidebar-contact img {
-      height: 28px;
-    }
-    .sidebar-menu .badge.active {
-      background: #0366d6;
-      color: white;
-    }
-  </style>
 </head>
 
 <body>
 
 <div class="wrapper">
 
-  <!-- =========================
-       SIDEBAR (PRO CARD)
-  ========================== -->
-  <header>
+  <!-- SIDEBAR -->
+  {% include sidebar.html %}
 
-    {% if site.logo %}
-    <img src="{{ site.logo | relative_url }}" alt="Profile" class="profile-img">
-    {% endif %}
-
-    <h1>{{ site.title }}</h1>
-
-    <p class="sidebar-desc">
-      Information Systems Student<br>
-      Data Analyst | System Designer | BI Enthusiast
-    </p>
-
-    <!-- MENU -->
-    <nav class="sidebar-menu">
-      <a class="badge {% if page.url == '/' %}active{% endif %}" href="{{ '/' | relative_url }}">
-        Home
-      </a>
-      <a class="badge {% if page.url contains 'portfolio' %}active{% endif %}" href="{{ '/portfolio' | relative_url }}">
-        Portfolio
-      </a>
-      <a class="badge {% if page.url contains 'cv' %}active{% endif %}" href="{{ '/cv' | relative_url }}">
-        CV
-      </a>
-      <a class="badge {% if page.url contains 'articles' %}active{% endif %}" href="{{ '/articles' | relative_url }}">
-        Articles
-      </a>
-    </nav>
-
-    <!-- CONTACT -->
-    <div class="sidebar-contact">
-      <h3>Contact</h3>
-      <a href="mailto:alfiantonico9@gmail.com">
-        <img src="https://img.shields.io/badge/Email-alfiantonico9@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-      </a>
-      <a href="https://www.linkedin.com/in/nico-alfianto">
-        <img src="https://img.shields.io/badge/LinkedIn-nico--alfianto-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-      </a>
-      <a href="https://github.com/nico-alfianto">
-        <img src="https://img.shields.io/badge/GitHub-nico--alfianto-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-      </a>
-    </div>
-
-  </header>
-
-  <!-- =========================
-       MAIN CONTENT
-  ========================== -->
+  <!-- MAIN CONTENT -->
   <section>
     {{ content }}
   </section>
