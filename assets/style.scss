@@ -111,6 +111,43 @@ header h1 {
 }
 
 /* =========================
+   SIDEBAR CONTACT
+========================= */
+
+.sidebar-contact {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #eaeef3;
+  text-align: left;
+}
+
+.sidebar-contact h3 {
+  font-size: 12px;
+  margin: 0 0 14px 0;
+  color: #8696a7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sidebar-contact a {
+  display: block;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease;
+}
+
+.sidebar-contact a:hover {
+  transform: translateX(4px);
+}
+
+.sidebar-contact img {
+  height: 32px;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* =========================
    CONTENT AREA
 ========================= */
 
@@ -148,5 +185,9 @@ footer {
     position: relative;
     top: auto;
     width: 100%;
+  }
+  
+  .sidebar-contact img {
+    height: 28px;
   }
 }
