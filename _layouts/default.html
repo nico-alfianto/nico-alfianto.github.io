@@ -4,7 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+
   {% seo %}
+
   <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 </head>
 
@@ -12,11 +16,13 @@
 
 <div class="wrapper">
 
-  <!-- SIDEBAR CUSTOM (FULL CONTROL) -->
+  <!-- =========================
+       SIDEBAR (PRO CARD)
+  ========================== -->
   <header>
 
     {% if site.logo %}
-    <img src="{{ site.logo | relative_url }}" class="profile-img">
+    <img src="{{ site.logo | relative_url }}" alt="Profile" class="profile-img">
     {% endif %}
 
     <h1>{{ site.title }}</h1>
@@ -26,16 +32,32 @@
       Data Analyst | System Designer | BI Enthusiast
     </p>
 
+    <!-- MENU -->
     <nav class="sidebar-menu">
-      <a class="badge" href="/">Home</a>
-      <a class="badge" href="/portfolio">Portfolio</a>
-      <a class="badge" href="/cv">CV</a>
-      <a class="badge" href="/articles">Articles</a>
+
+      <a class="badge {% if page.url == '/' %}active{% endif %}" href="/">
+        Home
+      </a>
+
+      <a class="badge {% if page.url contains 'portfolio' %}active{% endif %}" href="/portfolio">
+        Portfolio
+      </a>
+
+      <a class="badge {% if page.url contains 'cv' %}active{% endif %}" href="/cv">
+        CV
+      </a>
+
+      <a class="badge {% if page.url contains 'articles' %}active{% endif %}" href="/articles">
+        Articles
+      </a>
+
     </nav>
 
   </header>
 
-  <!-- CONTENT -->
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
   <section>
     {{ content }}
   </section>
