@@ -1,17 +1,8 @@
 title: Nico Alfianto
+logo: /images/nico.jpg
 
-logo: images/nico.jpg
-
-  <b>MENU</b><br>
-  🏠 <a href="/index.html">Home</a><br>
-  📁 <a href="/portfolio">Portfolio</a><br>
-  📄 <a href="/cv">CV</a><br>
-  📝 <a href="/articles">Articles</a><br><br>
-
-  <hr>
-
-  🔗 <a href="https://github.com/nico-alfianto">GitHub</a><br>
-  💼 <a href="https://www.linkedin.com/in/nico-alfianto">LinkedIn</a>
+description: >
+  Data Analyst | System Designer | BI Enthusiast
 
   
 remote_theme: pages-themes/minimal@v0.2.0
