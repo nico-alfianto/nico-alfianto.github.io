@@ -16,7 +16,7 @@ Welcome to my writing section. This page contains academic writing, reports, and
 <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" style="width:100%; height:160px; object-fit:cover;">
 
 <div style="padding:15px;">
-<h3>📊 Business Intelligence Academic Paper</h3>
+<h3>Business Intelligence Academic Paper</h3>
 
 <p style="font-size:14px;">
 Academic analysis of Business Intelligence concepts including ETL, Data Warehouse, BI dashboard, and BI vs Business Analytics.
@@ -34,7 +34,7 @@ Read Article →
 <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" style="width:100%; height:160px; object-fit:cover;">
 
 <div style="padding:15px;">
-<h3>🌱 Community Service Activity</h3>
+<h3>Community Service Activity</h3>
 
 <p style="font-size:14px;">
 Aksi bersih-bersih di Taman Heulang Bogor sebagai bentuk kepedulian terhadap lingkungan dan partisipasi masyarakat.
@@ -52,7 +52,7 @@ Read Article →
 <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" style="width:100%; height:160px; object-fit:cover;">
 
 <div style="padding:15px;">
-<h3>📰 Business Intelligence Press Release</h3>
+<h3>Business Intelligence Press Release</h3>
 
 <p style="font-size:14px;">
 Press release activity documenting BI project collaboration and communication in a group assignment context.
@@ -68,7 +68,7 @@ Read Article →
 
 ---
 
-## 🎯 About This Section
+## About This Section
 
 This section demonstrates:
 
@@ -79,7 +79,7 @@ This section demonstrates:
 
 ---
 
-## 📬 Contact
+## Contact
 
 - LinkedIn: https://www.linkedin.com/in/nico-alfianto
 - GitHub: https://github.com/nico-alfianto
