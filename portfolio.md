@@ -134,9 +134,9 @@ Customer Analytics • Data Visualization • EDA • Business Analytics • CRI
 
 ### Links
 
-[![GitHub Repo](https://github.com/nico-alfianto/customer-churn-analysis)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/nico-alfianto/customer-churn-analysis)
 
-[![Open in Colab](https://colab.research.google.com/drive/11i-_gJWvSGnqqGsAzDdNsH9OomWPYVve) 
+[![Open in Colab](https://img.shields.io/badge/Google_Colab-Notebook-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/11i-_gJWvSGnqqGsAzDdNsH9OomWPYVve)
 
 ---
 
@@ -206,9 +206,9 @@ Business Intelligence • KPI Analysis • Sales Analytics • Profitability Ana
 
 ### Links
 
-[![GitHub Repo](https://github.com/nico-alfianto/sales-performance-analysis)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/nico-alfianto/sales-performance-analysis)
 
-[![Open in Colab](https://colab.research.google.com/drive/1W_fZ6K0hR_Ge0kylzZhd3RXuiq_urYld)
+[![Open in Colab](https://img.shields.io/badge/Google_Colab-Notebook-F9AB00?logo=googlecolab&logoColor=white)](https://colab.research.google.com/drive/1W_fZ6K0hR_Ge0kylzZhd3RXuiq_urYld)
 
 ---
 
@@ -236,9 +236,9 @@ Web Development • Git Workflow • Documentation • Portfolio Design
 
 ### Links
 
-[![GitHub Repo](https://github.com/nico-alfianto/portfolio-master)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?logo=github&logoColor=white)](https://github.com/nico-alfianto/portfolio-master)
 
-[![my website](https://nico-alfianto.github.io)
+[![Live Website](https://img.shields.io/badge/Live_Website-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white)](https://nico-alfianto.github.io)
 
 ---
 
@@ -253,4 +253,4 @@ I continuously develop projects in:
 - Dashboard Development  
 - Data Visualization  
 
-[![Follow my GitHub for updates:](https://github.com/nico-alfianto)
+[![Follow my GitHub](https://img.shields.io/badge/Follow-GitHub-181717?style=for-the-badge&logo=github)](https://github.com/nico-alfianto)
