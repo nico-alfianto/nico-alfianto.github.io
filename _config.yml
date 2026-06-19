@@ -1,13 +1,15 @@
 title: Nico Alfianto
 
-logo: "/images/nico.jpg?raw=true"
+logo: /images/nico.jpg
 
 description: >
-  Mahasiswa dan pembelajar teknologi.
+  Information Systems Student
   <br><br>
-  Tertarik pada Web Development, AI, dan pengembangan aplikasi.
+  Data Analysis & System Design Enthusiast
   <br><br>
-  <a href="https://github.com/nico-alfianto">GitHub Saya</a>
+  BNSP Certified Database Administrator
+  <br><br>
+  <a href="https://www.linkedin.com/in/nico-alfianto">LinkedIn Profile</a>
 
 remote_theme: pages-themes/minimal@v0.2.0
 
