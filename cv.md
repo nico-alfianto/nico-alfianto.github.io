@@ -21,14 +21,14 @@ I enjoy transforming raw data into meaningful insights through data processing, 
 
 ## Contact
 
-📧 Email  
-👉 [alfiantonico@gmail.com](mailto:alfiantonico@gmail.com)
+Email  
+[alfiantonico@gmail.com](mailto:alfiantonico@gmail.com)
 
-💼 LinkedIn  
-👉 https://www.linkedin.com/in/nico-alfianto
+LinkedIn  
+https://www.linkedin.com/in/nico-alfianto
 
-💻 GitHub  
-👉 https://github.com/nico-alfianto
+GitHub  
+https://github.com/nico-alfianto
 
 ---
 
@@ -109,8 +109,8 @@ Analysis of customer behavior to identify churn drivers and retention strategies
 ### Sales Performance Analysis
 Business Intelligence project analyzing sales, profit, and regional performance.
 
-👉 View full projects here:  
-https://your-site-url/portfolio
+View full projects here:  
+https://github.com/nico-alfianto/portfolio-master
 
 ---
 
