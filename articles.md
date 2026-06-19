@@ -81,6 +81,6 @@ This section demonstrates:
 
 ## Contact
 
-- LinkedIn: https://www.linkedin.com/in/nico-alfianto
-- GitHub: https://github.com/nico-alfianto
-- Email: alfiantonico9@gmail.com
+[LinkedIn Profile](https://www.linkedin.com/in/nico-alfianto)  
+[GitHub Profile](https://github.com/nico-alfianto)  
+[Send Email](mailto:alfiantonico9@gmail.com)
