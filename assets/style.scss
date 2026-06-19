@@ -18,10 +18,4 @@ a:hover {
   text-decoration: underline;
 }
 
-/* FORCE HIDE ANY JEKYLL FOOTER TEXT */
-body > footer {
-  display: none !important;
-  visibility: hidden !important;
-  height: 0 !important;
-  overflow: hidden !important;
-}
+
