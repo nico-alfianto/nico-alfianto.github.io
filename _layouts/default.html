@@ -18,7 +18,6 @@
 
    {% seo %}
 
-   <!-- CSS -->
    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
 </head>
@@ -31,7 +30,7 @@
    <header>
 
       {% if site.logo %}
-      <img src="{{ site.logo | relative_url }}" alt="Logo">
+      <img src="{{ site.logo | relative_url }}" alt="Logo" class="profile-img">
       {% endif %}
 
       <h1>
@@ -40,15 +39,15 @@
          </a>
       </h1>
 
-      <p>{{ site.description }}</p>
+      <p class="sidebar-desc">{{ site.description }}</p>
 
-      <!-- MENU -->
+      <!-- MENU BADGE STYLE -->
       <nav class="sidebar-menu">
 
-         <a href="/">🏠 Home</a>
-         <a href="/portfolio">📁 Portfolio</a>
-         <a href="/cv">📄 CV</a>
-         <a href="/articles">📝 Articles</a>
+         <a class="badge home" href="/">🏠 Home</a>
+         <a class="badge portfolio" href="/portfolio">📁 Portfolio</a>
+         <a class="badge cv" href="/cv">📄 CV</a>
+         <a class="badge articles" href="/articles">📝 Articles</a>
 
       </nav>
 
@@ -69,9 +68,7 @@
       {% endif %}
 
       <p>
-         <small>
-            Hosted on GitHub Pages — Theme by orderedlist
-         </small>
+         <small>Hosted on GitHub Pages — Theme by orderedlist</small>
       </p>
    </footer>
 
