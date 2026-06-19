@@ -1,17 +1,96 @@
-# Home
-
 [Home](/) | [Portfolio](/portfolio) | [CV](/cv)
 
 ---
 
-# About Me
+![Banner](/images/banner.jpg)
 
+# Hi, I'm Nico Alfianto 👋
 
-Hello! My name is Nico Alfianto, an undergraduate student of Information Systems at Universitas Bina Sarana Informatika (UBSI) Bogor.
+**Information Systems Student | Data Analysis & System Design Enthusiast**
 
-I have a strong interest in Data Analysis, Database Management, and System Design. Through academic coursework, professional certifications, and self-directed learning, I continue to develop technical skills in data processing, database administration, business intelligence, and information systems development.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge\&logo=mysql\&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge\&logo=powerbi\&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
 
-My goal is to contribute to data-driven decision making and help organizations improve efficiency through technology and information systems.
+---
+
+## About Me
+
+I am an undergraduate Information Systems student at Universitas Bina Sarana Informatika (UBSI) Bogor with a strong interest in Data Analytics, Business Intelligence, Database Management, and System Design.
+
+I enjoy transforming raw data into meaningful insights and developing solutions that support data-driven decision making. Through academic projects, certifications, and independent learning, I continue to strengthen my analytical, technical, and problem-solving skills.
+
+---
+
+## Quick Facts
+
+🎓 Information Systems Student
+
+📊 Data Analytics Enthusiast
+
+🗄️ BNSP Certified Database Administrator
+
+📈 Interested in Business Intelligence & Data Visualization
+
+🌱 Currently Learning Power BI, Advanced SQL, and Data Warehousing
+
+📍 Bogor, Indonesia
+
+---
+
+## Core Competencies
+
+### Data Analytics
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Customer Analytics
+* Business Analytics
+* Predictive Analytics
+* CRISP-DM Methodology
+
+### Database & Programming
+
+* SQL
+* MySQL
+* Python
+* PHP
+* HTML/CSS
+
+### Business Intelligence
+
+* Power BI
+* Microsoft Excel
+* KPI Analysis
+* Dashboard Reporting
+* Data Visualization
+
+### System Analysis & Design
+
+* UML
+* ERD
+* SDLC
+* Requirements Analysis
+
+---
+
+## Featured Projects
+
+### Customer Value Analysis – RFM & Logistic Regression
+
+Customer segmentation and predictive analytics project using RFM Analysis and Logistic Regression to identify high-value customers and support business decision-making.
+
+### Customer Churn Analysis – Telco Dataset
+
+Customer retention analysis focused on identifying churn drivers and developing actionable business recommendations.
+
+### Sales Performance Analysis – Superstore Dataset
+
+Sales and profitability analysis that transforms transaction data into strategic business insights.
+
+➡️ Explore all projects on the **Portfolio** page.
 
 ---
 
@@ -19,7 +98,7 @@ My goal is to contribute to data-driven decision making and help organizations i
 
 ### Universitas Bina Sarana Informatika (UBSI) Bogor
 
-Bachelor of Information Systems
+**Bachelor of Information Systems**
 
 2024 – Present
 
@@ -33,88 +112,41 @@ Relevant Areas of Study:
 
 ### SMAN 1 Cibinong
 
-Science Program (IPA)
+**Science Program (IPA)**
 
 2018 – 2021
 
 ---
 
-## Technical Skills
-
-### Programming & Database
-
-* Python
-* SQL
-* PHP
-* HTML/CSS
-* MySQL
-
-### Data Analytics
-
-* Microsoft Excel
-* Power BI
-* Data Cleaning
-* Exploratory Data Analysis (EDA)
-* CRISP-DM Methodology
-
-### System Analysis & Design
-
-* UML
-* ERD
-* SDLC
-
-### Tools
-
-* Git & GitHub
-* Google Colab
-
----
-
 ## Certifications
-
-To strengthen my technical knowledge and practical skills, I have completed several professional and industry-recognized training programs.
 
 ### Professional Certifications
 
-**BNSP Certified Database Administrator**
-LSP BSI (2026)
+🏅 BNSP Certified Database Administrator — LSP BSI (2026)
 
-Demonstrates competency in database administration, database maintenance, user management, and database security.
-
-**Database Systems Certification**
-Iner Corp (2025)
-
-Focused on database concepts, relational database design, and implementation.
+🏅 Database Systems Certification — Iner Corp (2025)
 
 ### Data & Programming Certifications
 
-* Data Science Basics – Dicoding (2024)
-* Python Basics – Dicoding (2024)
-* SQL Basics – Dicoding (2024)
-* Python Basics – Bisa AI (2024)
-* Data Analyst – RevoU (2023)
+🏅 Data Science Basics — Dicoding (2024)
 
-These certifications helped build my understanding of data analysis, programming fundamentals, SQL querying, and data-driven problem solving.
+🏅 Python Basics — Dicoding (2024)
+
+🏅 SQL Basics — Dicoding (2024)
+
+🏅 Python Basics — Bisa AI (2024)
+
+🏅 Data Analyst — RevoU (2023)
 
 ---
 
-## Organizational Experience
+## Currently Learning
 
-### Peer Educator
-
-Youth Health Program (YHP)
-
-2019
-
-As a Peer Educator, I participated in educational and awareness activities related to youth development, communication, and social responsibility. This experience improved my public speaking, teamwork, and leadership skills.
-
-### Member
-
-Forum Anak Daerah Kabupaten Bogor (FADKAB)
-
-2019
-
-Actively participated in organizational activities and collaborative programs, helping develop communication, teamwork, and organizational management skills.
+* Power BI Dashboard Development
+* Advanced SQL Analytics
+* Business Intelligence Reporting
+* Data Warehousing Fundamentals
+* Database Administration
 
 ---
 
@@ -127,8 +159,18 @@ Actively participated in organizational activities and collaborative programs, h
 
 ## Contact
 
-LinkedIn:
-[www.linkedin.com/in/nico-alfianto](http://www.linkedin.com/in/nico-alfianto)
+### LinkedIn
 
-GitHub:
-github.com/nico-alfianto
+https://www.linkedin.com/in/nico-alfianto
+
+### GitHub
+
+https://github.com/nico-alfianto
+
+---
+
+## Resume
+
+📄 [View CV](/cv)
+
+📥 [Download PDF CV](/pdf/Nico_Alfianto_CV.pdf)
