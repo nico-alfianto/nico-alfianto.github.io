@@ -24,6 +24,8 @@ Bachelor of Information Systems
 
 ### SMAN 1 Cibinong
 
+Science Program (IPA)
+
 2018 – 2021
 
 ---
