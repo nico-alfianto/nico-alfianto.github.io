@@ -39,6 +39,16 @@ Without proper customer segmentation, marketing resources may be distributed ine
 * Seaborn
 * Google Colab
 
+## Project Visualizations
+
+![Customer Segments](/images/customer-segments.png)
+
+*Distribution of customers across RFM segments.*
+
+![Customer Retention Cohort Analysis](/images/cohort-analysis.png)
+
+*Cohort analysis showing customer retention patterns over time.*
+
 ## Key Findings
 
 * A relatively small group of customers contributes a significant portion of total revenue.
