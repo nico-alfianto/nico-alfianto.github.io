@@ -104,6 +104,20 @@ Customer acquisition is often more expensive than customer retention. Understand
 * Seaborn
 * Google Colab
 
+## Project Visualizations
+
+![Customer Churn Analysis](/images/churn-distributions.png)
+
+*Customer churn distribution and key factors influencing churn.*
+
+![Customer Churn Analysis](/images/churn-correlations.png)
+
+*Customer churn correlations and key factors influencing churn.*
+
+![Customer Churn Analysis](/images/churn-dash.png)
+
+*Customer churn dashboard.*
+
 ## Key Findings
 
 * Customers with Month-to-Month contracts have the highest churn rates.
@@ -156,6 +170,20 @@ This project investigates performance across product categories and geographical
 * Pandas
 * Matplotlib
 * Google Colab
+
+## Project Visualizations
+
+![Sales Performance Dashboard](/images/sales-region.png)
+
+*Sales and profitability performance across regions.*
+
+![Sales Performance Dashboard](/images/sales-category.png)
+
+*Sales and profitability performance across categories.*
+
+![Sales Performance Dashboard](/images/profit-category.png)
+
+*Sales and profitability performance across categories and regions.*
 
 ## Key Findings
 
