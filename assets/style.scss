@@ -1,4 +1,3 @@
-/* BASE */
 body {
   font-family: "Segoe UI", sans-serif;
   margin: 0;
@@ -6,7 +5,6 @@ body {
   color: #2c3e50;
 }
 
-/* LAYOUT */
 .wrapper {
   display: flex;
   max-width: 1100px;
@@ -33,9 +31,8 @@ header {
 /* TEXT */
 .sidebar-desc {
   font-size: 13px;
-  color: #555;
   margin-bottom: 20px;
-  white-space: pre-line;
+  line-height: 1.5;
 }
 
 /* MENU */
@@ -47,6 +44,7 @@ header {
 
 /* BADGE */
 .badge {
+  display: block;
   padding: 10px 14px;
   border-radius: 12px;
   background: #f5f7fb;
@@ -56,7 +54,6 @@ header {
   transition: 0.2s;
 }
 
-/* HOVER */
 .badge:hover {
   background: #0366d6;
   color: white;
@@ -69,7 +66,7 @@ section {
   padding: 20px;
 }
 
-/* RESPONSIVE */
+/* MOBILE */
 @media (max-width: 768px) {
   .wrapper {
     flex-direction: column;
