@@ -4,69 +4,85 @@
 
 ---
 
-# 📝 Writing & Academic Articles
-
-Welcome to my writing section.  
-This page contains academic writing, analysis, and reports related to Information Systems, Business Intelligence, and community activities.
-
----
-
-## 📊 Business Intelligence Academic Paper
-
-### Tugas 1: Business Intelligence
-
-This article discusses core concepts of Business Intelligence including:
-
-- Definition of Business Intelligence
-- ETL (Extract, Transform, Load) Process
-- Data Warehouse concepts
-- BI Dashboard implementation
-- Differences between Business Intelligence and Business Analytics
-
-📌 Focus:
-Understanding how data is transformed into insights for business decision-making.
-
-🔗 Read Full Article  
-https://www.blogger.com/YOUR-LINK-HERE
+<p style="font-size:16px;">
+Welcome to my writing section. This page contains academic writing, reports, and analytical documentation related to Business Intelligence, Information Systems, and community activities.
+</p>
 
 ---
 
-## 🌱 Community Service Activity
+<div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:20px; margin-top:20px;">
 
-### Aksi Bersih-Bersih di Taman Heulang Bogor
+<!-- CARD 1 -->
+<div style="border-radius:12px; overflow:hidden; border:1px solid #ddd; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
 
-A community engagement activity focused on environmental awareness and public participation in maintaining cleanliness in public spaces.
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" style="width:100%; height:160px; object-fit:cover;">
 
-📌 Role: Author & Participant  
-📌 Type: Community Service Report  
-📌 Location: Taman Heulang, Bogor
+<div style="padding:15px;">
+<h3>📊 Business Intelligence Academic Paper</h3>
 
-Key highlights:
-- Collaboration with local community
-- Environmental cleanliness campaign
-- Social awareness contribution
+<p style="font-size:14px;">
+Academic analysis of Business Intelligence concepts including ETL, Data Warehouse, BI dashboard, and BI vs Business Analytics.
+</p>
 
-🔗 Read Full Article  
-https://www.blogger.com/YOUR-LINK-HERE
+<a href="https://marutaneko.blogspot.com/2026/04/tugas-1-bussines-intelegence.html" target="_blank">
+Read Article →
+</a>
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div style="border-radius:12px; overflow:hidden; border:1px solid #ddd; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+
+<img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f" style="width:100%; height:160px; object-fit:cover;">
+
+<div style="padding:15px;">
+<h3>🌱 Community Service Activity</h3>
+
+<p style="font-size:14px;">
+Aksi bersih-bersih di Taman Heulang Bogor sebagai bentuk kepedulian terhadap lingkungan dan partisipasi masyarakat.
+</p>
+
+<a href="https://marutaneko.blogspot.com/2025/06/aksi-bersih-bersih-di-taman-heulang.html" target="_blank">
+Read Article →
+</a>
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div style="border-radius:12px; overflow:hidden; border:1px solid #ddd; box-shadow:0 4px 12px rgba(0,0,0,0.08);">
+
+<img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40" style="width:100%; height:160px; object-fit:cover;">
+
+<div style="padding:15px;">
+<h3>📰 Business Intelligence Press Release</h3>
+
+<p style="font-size:14px;">
+Press release activity documenting BI project collaboration and communication in a group assignment context.
+</p>
+
+<a href="https://ryk1na.blogspot.com/2026/04/press-release-kegiatan-bi.html" target="_blank">
+Read Article →
+</a>
+</div>
+</div>
+
+</div>
 
 ---
 
-## 🎯 Purpose of This Section
+## 🎯 About This Section
 
 This section demonstrates:
 
-- Academic writing ability
-- Analytical thinking
-- Understanding of Business Intelligence concepts
-- Communication skills
-- Real-world awareness beyond technical projects
+- Academic writing skills
+- Business Intelligence understanding
+- Communication & documentation ability
+- Real-world activity reporting
 
 ---
 
-# 📬 Contact
-
-If you would like to discuss my writing or projects:
+## 📬 Contact
 
 - LinkedIn: https://www.linkedin.com/in/nico-alfianto
 - GitHub: https://github.com/nico-alfianto
-- Email: alfiantonico@gmail.com
+- Email: alfiantonico9@gmail.com
