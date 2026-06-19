@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv)
+[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
 
 ---
 
