@@ -123,5 +123,4 @@ English (Professional Working Proficiency)
 
 ## Download CV
 
-📄 View Full CV (PDF)  
-👉 /pdf/Nico_Alfianto_CV.pdf
+📄 [Download CV](/pdf/Nico_Alfianto_CV.pdf)
