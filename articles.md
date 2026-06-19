@@ -1,7 +1,5 @@
 # Articles & Writing
 
-[Home](/) | [Portfolio](/portfolio) | [CV](/cv) | [Articles](/articles)
-
 ---
 
 <p style="font-size:16px;">
