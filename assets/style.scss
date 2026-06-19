@@ -18,12 +18,10 @@ a:hover {
   text-decoration: underline;
 }
 
-/* HIDE ALL MINIMAL THEME FOOTER ELEMENTS */
-footer,
-.site-footer,
-footer small,
-footer p,
-footer span,
-footer a {
+/* FORCE HIDE ANY JEKYLL FOOTER TEXT */
+body > footer {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  overflow: hidden !important;
 }
