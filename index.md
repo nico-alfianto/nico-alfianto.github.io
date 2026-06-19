@@ -4,9 +4,8 @@
 
 ---
 
-# Nico Alfianto
+# About Me
 
-**Information Systems Student | Data Analysis & System Design Enthusiast**
 
 Hello! My name is Nico Alfianto, an undergraduate student of Information Systems at Universitas Bina Sarana Informatika (UBSI) Bogor.
 
