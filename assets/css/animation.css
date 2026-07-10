@@ -1,0 +1,249 @@
+/* =========================
+   PAGE ENTER ANIMATION
+========================= */
+
+body{
+
+    animation:pageLoad .8s ease;
+
+}
+
+
+@keyframes pageLoad{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(25px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+
+
+
+
+
+/* =========================
+   HERO BACKGROUND ANIMATION
+========================= */
+
+
+.hero{
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+
+
+.hero::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #3b82f6
+    );
+
+    filter:blur(120px);
+
+    opacity:.35;
+
+    top:-150px;
+
+    right:-100px;
+
+    animation:moveGlow 8s infinite alternate;
+
+}
+
+
+
+@keyframes moveGlow{
+
+
+from{
+
+transform:translate(0,0);
+
+}
+
+
+
+to{
+
+transform:translate(-100px,80px);
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+ FLOATING SHAPE
+========================= */
+
+
+.hero-image::before{
+
+    content:"";
+
+    position:absolute;
+
+    width:80px;
+
+    height:80px;
+
+    background:#8b5cf6;
+
+    border-radius:50%;
+
+    opacity:.4;
+
+    top:-20px;
+
+    left:-20px;
+
+    animation:floatingShape 5s infinite;
+
+}
+
+
+
+.hero-image::after{
+
+    content:"";
+
+    position:absolute;
+
+    width:120px;
+
+    height:120px;
+
+    background:#3b82f6;
+
+    border-radius:30px;
+
+    opacity:.3;
+
+    bottom:-40px;
+
+    right:-40px;
+
+    animation:floatingShape 7s infinite;
+
+}
+
+
+
+
+@keyframes floatingShape{
+
+
+50%{
+
+transform:translateY(-25px) rotate(20deg);
+
+}
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+ PROFILE HOVER
+========================= */
+
+
+.profile-card img{
+
+    transition:.5s;
+
+}
+
+
+
+.profile-card img:hover{
+
+
+transform:scale(1.05) rotate(2deg);
+
+
+}
+
+
+
+
+
+
+
+/* =========================
+ CARD ANIMATION
+========================= */
+
+
+.project-card,
+.stat-card{
+
+
+animation:cardUp .8s ease forwards;
+
+
+}
+
+
+
+@keyframes cardUp{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
