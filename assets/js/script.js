@@ -152,3 +152,107 @@ if(year){
 
 
 }
+// ============================
+// TYPING EFFECT
+// ============================
+
+
+const textElement = document.getElementById("typing");
+
+
+const texts = [
+
+"Data Analyst",
+
+"Business Intelligence Enthusiast",
+
+"Database Designer",
+
+"System Analysis Enthusiast"
+
+];
+
+
+let textIndex = 0;
+
+let charIndex = 0;
+
+
+
+function typing(){
+
+
+if(!textElement) return;
+
+
+
+if(charIndex < texts[textIndex].length){
+
+
+textElement.innerHTML += texts[textIndex].charAt(charIndex);
+
+
+charIndex++;
+
+setTimeout(typing,100);
+
+
+}
+
+else{
+
+
+setTimeout(erase,1500);
+
+
+}
+
+
+}
+
+
+
+
+function erase(){
+
+
+if(charIndex > 0){
+
+
+textElement.innerHTML = 
+texts[textIndex].substring(0,charIndex-1);
+
+
+charIndex--;
+
+
+setTimeout(erase,50);
+
+
+}
+
+
+else{
+
+
+textIndex++;
+
+
+if(textIndex >= texts.length){
+
+textIndex=0;
+
+}
+
+
+setTimeout(typing,300);
+
+
+}
+
+
+}
+
+
+
+typing();
