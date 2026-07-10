@@ -1,0 +1,293 @@
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1024px){
+
+
+    section{
+
+        padding:70px 5%;
+
+    }
+
+
+
+    .hero{
+
+        gap:20px;
+
+    }
+
+
+
+    .hero h1{
+
+        font-size:3rem;
+
+    }
+
+
+
+    .profile-card img{
+
+        width:250px;
+
+        height:250px;
+
+    }
+
+
+
+    .project-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+
+    .stats{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+
+}
+
+
+
+
+
+
+/* =========================
+   MOBILE
+========================= */
+
+
+@media (max-width:768px){
+
+
+body{
+
+    overflow-x:hidden;
+
+}
+
+
+
+/* Navbar */
+
+
+.navbar{
+
+    padding:20px 5%;
+
+}
+
+
+
+.nav-links{
+
+    position:absolute;
+
+    top:75px;
+
+    left:0;
+
+    width:100%;
+
+    background:#0f172a;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    padding:30px;
+
+    display:none;
+
+}
+
+
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
+
+
+.menu-icon{
+
+    display:block;
+
+}
+
+
+
+
+/* Hero */
+
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+    padding-top:130px;
+
+}
+
+
+
+.hero-content{
+
+    width:100%;
+
+}
+
+
+
+.hero h1{
+
+    font-size:2.5rem;
+
+}
+
+
+
+.hero h2{
+
+    text-align:center;
+
+    font-size:1.5rem;
+
+}
+
+
+
+.hero-text{
+
+    font-size:.95rem;
+
+}
+
+
+
+.hero-buttons{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.social-icons{
+
+    justify-content:center;
+
+}
+
+
+
+.profile-card img{
+
+    width:220px;
+
+    height:220px;
+
+}
+
+
+
+.cat-mascot{
+
+    right:-20px;
+
+    font-size:45px;
+
+}
+
+
+
+
+
+
+/* Stats */
+
+
+.stats{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.stat-card{
+
+    padding:25px;
+
+}
+
+
+
+
+
+
+/* Projects */
+
+
+.project-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+
+.project-card{
+
+    padding:20px;
+
+}
+
+
+
+
+
+
+/* Heading */
+
+
+h2{
+
+    font-size:1.8rem;
+
+}
+
+
+
+.skill-list span{
+
+    font-size:.9rem;
+
+}
+
+
+
+
+footer{
+
+    font-size:.85rem;
+
+}
+
+
+}
