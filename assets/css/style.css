@@ -728,3 +728,260 @@ footer{
     transition:.8s ease;
 
 }
+
+/* =========================
+   CERTIFICATION PAGE
+========================= */
+
+
+.project-card img{
+
+    transition:.5s ease;
+
+}
+
+
+.project-card:hover img{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* Certificate Card */
+
+.project-card{
+
+    overflow:hidden;
+
+}
+
+
+
+.project-card h3{
+
+    margin-top:20px;
+
+    font-size:1.2rem;
+
+}
+
+
+
+
+
+/* Certificate Preview */
+
+.certificate-preview{
+
+    width:100%;
+
+    height:220px;
+
+    object-fit:cover;
+
+    border-radius:15px;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+
+
+
+/* PDF CARD */
+
+.pdf-box{
+
+    height:220px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    background:#020617;
+
+    border-radius:15px;
+
+    border:1px solid rgba(255,255,255,.1);
+
+    margin-bottom:15px;
+
+}
+
+
+
+.pdf-box i{
+
+    font-size:60px;
+
+    color:#ef4444;
+
+}
+
+
+
+.pdf-box span{
+
+    margin-top:10px;
+
+    color:#cbd5e1;
+
+}
+
+
+
+
+
+
+
+/* Certificate Button */
+
+.github-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    margin-top:20px;
+
+    padding:12px 22px;
+
+    border-radius:30px;
+
+    background:#020617;
+
+    border:1px solid #475569;
+
+    transition:.3s;
+
+}
+
+
+
+.github-btn:hover{
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #3b82f6
+    );
+
+    transform:translateY(-5px);
+
+    border-color:transparent;
+
+}
+
+
+
+
+
+
+
+/* Badge */
+
+.project-card span{
+
+    display:inline-block;
+
+    padding:5px 15px;
+
+    margin:10px 5px 10px 0;
+
+    border-radius:20px;
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #3b82f6
+    );
+
+    font-size:.75rem;
+
+    color:white;
+
+}
+
+
+
+
+
+/* Tech Badge */
+
+.tech{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:8px;
+
+}
+
+
+
+.tech span{
+
+    background:#020617;
+
+    border:1px solid #334155;
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:.75rem;
+
+}
+
+
+
+
+
+
+
+/* Scroll Animation */
+
+.project-card{
+
+    animation:certificateShow .8s ease forwards;
+
+}
+
+
+
+@keyframes certificateShow{
+
+
+from{
+
+opacity:0;
+
+transform:translateY(40px);
+
+}
+
+
+to{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+
+}
