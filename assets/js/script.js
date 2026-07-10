@@ -256,3 +256,46 @@ setTimeout(typing,300);
 
 
 typing();
+
+// PROJECT REVEAL ANIMATION
+
+
+const cards = document.querySelectorAll(".project-card");
+
+
+const projectObserver = new IntersectionObserver(
+(entries)=>{
+
+
+entries.forEach(entry=>{
+
+
+if(entry.isIntersecting){
+
+
+entry.target.classList.add("show");
+
+
+}
+
+
+});
+
+
+},
+{
+threshold:.15
+});
+
+
+
+cards.forEach(card=>{
+
+
+card.classList.add("hidden");
+
+
+projectObserver.observe(card);
+
+
+});
