@@ -338,29 +338,6 @@ header{
 
 
 
-.cat-mascot{
-
-    position:absolute;
-
-    bottom:-20px;
-
-    right:-30px;
-
-    font-size:55px;
-
-    animation:floating 3s infinite ease-in-out;
-
-}
-
-
-
-.cat-mascot div{
-
-    font-size:30px;
-
-}
-
-
 
 
 
