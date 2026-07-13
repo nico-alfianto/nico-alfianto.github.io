@@ -1112,3 +1112,37 @@ transform:translateY(0);
     align-items:center;
 
 }
+
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff3e8;
+    border: 1px solid #ffcc99;
+    padding: 10px 16px;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #333;
+    transition: 0.3s;
+}
+.badge:hover {
+    background: #ff6b00;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(255,107,0,0.3);
+}
+.badge i {
+    font-size: 18px;
+    color: #ff6b00;
+}
+.badge:hover i {
+    color: #fff;
+}
+
