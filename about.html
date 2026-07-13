@@ -13,7 +13,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
-/* Tambahan biar foto di tengah */
+/* Foto Profil di Tengah - Warna Default */
 .profile-card {
     display: flex;
     justify-content: center;
@@ -25,8 +25,8 @@
     height: 220px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #ff6b00;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border: 4px solid #e5e7eb; /* Warna abu netral kayak sebelumnya */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 .about-text p {
     margin-bottom: 16px;
@@ -40,11 +40,13 @@
     margin: 15px 0;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
+
+/* Tombol Sertifikat */
 .btn.primary {
     display: inline-block;
     margin-top: 12px;
     padding: 10px 18px;
-    background: #ff6b00;
+    background: #2563eb; /* Biru default */
     color: #fff;
     border-radius: 8px;
     text-decoration: none;
@@ -52,7 +54,38 @@
     transition: 0.3s;
 }
 .btn.primary:hover {
-    background: #e55f00;
+    background: #1d4ed8;
+}
+
+/* SKILL BADGES STYLE GITHUB */
+.skill-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: #f6f8fa; /* Abu2 kayak github */
+    border: 1px solid #d0d7de;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    color: #24292f;
+    font-size: 13px;
+    transition: all 0.2s ease;
+}
+.badge:hover {
+    background: #eaeef2;
+    border-color: #afb8c1;
+    transform: translateY(-1px);
+}
+.badge i {
+    font-size: 14px;
+    color: #57606a;
 }
 </style>
 </head>
@@ -125,10 +158,7 @@ I am a BNSP Certified Database Administrator with experience in SQL, Python, Pow
 <div class="timeline-item">
 <h3>IDCamp Alumni Dialogue #4</h3>
 <h4>Dicoding Indonesia</h4>
-
-<!-- Nanti kamu masukin gambar di sini -->
 <img src="assets/img/idcamp.jpg" alt="IDCamp Alumni Dialogue">
-
 <p>Participant in technology career discussion about developing skills and building a career in the digital industry.</p>
 <span>2026</span>
 </div>
@@ -136,10 +166,7 @@ I am a BNSP Certified Database Administrator with experience in SQL, Python, Pow
 <div class="timeline-item">
 <h3>Young Health Programme</h3>
 <h4>Peer Educator</h4>
-
-<!-- Nanti kamu masukin gambar di sini -->
 <img src="assets/img/yhp.jpg" alt="Young Health Programme">
-
 <p>Participated in health education activities focusing on healthy lifestyle awareness, nutrition, disease prevention, and youth empowerment.</p>
 <span>2019</span>
 </div>
@@ -147,10 +174,7 @@ I am a BNSP Certified Database Administrator with experience in SQL, Python, Pow
 <div class="timeline-item">
 <h3>Forum Anak Kabupaten Bogor</h3>
 <h4>Member</h4>
-
-<!-- Nanti kamu masukin gambar di sini -->
 <img src="assets/img/forum-anak.jpg" alt="Forum Anak Kabupaten Bogor">
-
 <p>Participated in youth activities related to children's rights, leadership, creativity development, and social participation.</p>
 <span>2019</span>
 </div>
@@ -160,7 +184,6 @@ I am a BNSP Certified Database Administrator with experience in SQL, Python, Pow
 
 <section>
 <h2>Technical Skills 💻</h2>
-
 <div class="skill-badges">
     
     <div class="badge"><i class="fa-brands fa-python"></i><span>Python</span></div>
