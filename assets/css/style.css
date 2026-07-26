@@ -375,47 +375,82 @@ to{ opacity:1; transform:translateY(0); }
     margin: 0 auto; /* biar paragraf nya juga tengah */
 }
 
-/* =========================
- FUN SECTION - HOME
-========================= */
-.fun{
-    text-align: center;
-    padding: 80px 8%;
+
+
+/* ===== 1. HOME: TULISAN "one paw at a time" ===== */
+section.fun {
+    text-align: center !important;
+    padding: 80px 8% !important;
+}
+section.fun h2, 
+section.fun p {
+    text-align: center !important;
 }
 
-.fun h2{
-    font-size: 2.2rem;
-    margin-bottom: 15px;
+/* ===== 2. HOME: KOTAK "Let's Connect" ===== */
+section.contact-box {
+    max-width: 700px !important;
+    width: 90% !important;
+    margin: 60px auto !important; /* auto = ke tengah */
+    padding: 50px !important;
+    text-align: center !important;
+    background: rgba(30,41,59,.8) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 30px !important;
+}
+section.contact-box h2,
+section.contact-box p,
+section.contact-box .btn {
+    text-align: center !important;
 }
 
-.fun p{
-    font-size: 1.2rem;
-    color: #cbd5e1;
-    font-style: italic;
+/* ===== 3. ABOUT: KOTAK SERTIFIKAT - KASIH SPASI ===== */
+.cert-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 30px !important; /* ini kunci biar ga rapet */
+    margin: 40px auto !important;
+    max-width: 1100px !important;
+    padding: 0 8% !important;
 }
 
-/* =========================
- CONTACT BOX - HOME  
-========================= */
-.contact-box{
-    max-width: 700px;
-    width: 90%;
-    margin: 0 auto; /* biar box nya di tengah */
-    padding: 50px;
-    text-align: center; /* biar tulisan di dalem tengah */
-    background: rgba(30,41,59,.8);
-    border: 1px solid rgba(255,255,255,.1);
-    backdrop-filter: blur(15px);
-    border-radius: 30px;
+.cert-card {
+    background: rgba(30,41,59,.8) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    padding: 30px !important;
+    border-radius: 20px !important;
+    text-align: left !important;
+    backdrop-filter: blur(15px) !important;
 }
 
-.contact-box h2{
-    margin-bottom: 15px;
-    font-size: 2.2rem;
+/* ===== 4. ABOUT: QUICK FACTS + BOX PENGALAMAN ===== */
+.quick-facts {
+    max-width: 600px !important;
+    width: 90% !important;
+    margin: 40px auto !important; /* auto = ke tengah */
+    padding: 30px !important;
+    text-align: left !important;
+    background: rgba(30,41,59,.8) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 20px !important;
+}
+.quick-facts h3 {
+    text-align: center !important;
 }
 
-.contact-box p{
-    margin-bottom: 30px;
-    color: #cbd5e1;
-    line-height: 1.8;
+/* BUAT BOX PENGALAMAN IDCamp, YHP, Forum Anak */
+.experience-list {
+    max-width: 900px !important;
+    margin: 40px auto !important; /* auto = ke tengah */
+    padding: 0 8% !important;
 }
+.experience-item {
+    background: rgba(30,41,59,.8) !important;
+    border: 1px solid rgba(255,255,255,.1) !important;
+    padding: 25px !important;
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+    text-align: left !important;
+   }
