@@ -374,3 +374,48 @@ to{ opacity:1; transform:translateY(0); }
     max-width: 800px;
     margin: 0 auto; /* biar paragraf nya juga tengah */
 }
+
+/* =========================
+ FUN SECTION - HOME
+========================= */
+.fun{
+    text-align: center;
+    padding: 80px 8%;
+}
+
+.fun h2{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.fun p{
+    font-size: 1.2rem;
+    color: #cbd5e1;
+    font-style: italic;
+}
+
+/* =========================
+ CONTACT BOX - HOME  
+========================= */
+.contact-box{
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto; /* biar box nya di tengah */
+    padding: 50px;
+    text-align: center; /* biar tulisan di dalem tengah */
+    background: rgba(30,41,59,.8);
+    border: 1px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(15px);
+    border-radius: 30px;
+}
+
+.contact-box h2{
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+}
+
+.contact-box p{
+    margin-bottom: 30px;
+    color: #cbd5e1;
+    line-height: 1.8;
+}
