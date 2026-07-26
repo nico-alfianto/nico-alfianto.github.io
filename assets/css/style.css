@@ -454,3 +454,41 @@ section.contact-box .btn {
     margin-bottom: 20px !important;
     text-align: left !important;
    }
+
+/* ===== 1. FIX PENGALAMAN: BIAR KE TENGAH + ADA SPASI ===== */
+.timeline {
+    max-width: 900px;
+    margin: 50px auto; /* auto = dorong ke tengah */
+    display: flex;
+    flex-direction: column;
+    gap: 25px; /* ini buat jarak antar box */
+    padding: 0 8%;
+}
+
+.timeline-item {
+    background: rgba(30,41,59,.8);
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    text-align: left;
+}
+
+/* ===== 2. FIX SERTIFIKAT: KASIH JARAK ANTAR BOX ===== */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; /* ini buat jarak antar sertifikat */
+    margin: 50px auto;
+    max-width: 1100px;
+    padding: 0 8%;
+}
+
+.card-grid .stat-card {
+    background: rgba(30,41,59,.8);
+    border: 1px solid rgba(255,255,255,.1);
+    padding: 30px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    text-align: left;
+       }
