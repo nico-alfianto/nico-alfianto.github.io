@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Nico Alfianto | Projects</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -18,466 +17,284 @@
 
     <header>
         <nav class="navbar">
-            <div class="logo">
-                Nico<span>.</span>
-            </div>
-
+            <div class="logo">Nico<span>.</span></div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
                 <li><a href="community.html">Community</a></li>
                 <li><a href="certifications.html">Certificates</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-
-            <div class="menu-icon">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <div class="menu-icon"><i class="fa-solid fa-bars"></i></div>
         </nav>
     </header>
 
+    <!-- HERO -->
     <section class="page-header">
-        <h1>My Projects 🚀</h1>
-        <p>A collection of Data Analytics, Machine Learning, Database Design, and Web Development projects.</p>
+        <h1>Projects Portfolio 🚀</h1>
+        <p>
+            A curated collection of Data Analytics, Business Intelligence, Machine Learning,
+            Database Design, Artificial Intelligence, Software Quality Assurance, and
+            Full-Stack Web Development projects.
+        </p>
     </section>
 
+    <!-- STATS -->
+    <section class="project-stats">
+        <div class="stat-box">
+            <h2>15+</h2>
+            <p>Projects</p>
+        </div>
+        <div class="stat-box">
+            <h2>6</h2>
+            <p>Featured Projects</p>
+        </div>
+        <div class="stat-box">
+            <h2>4</h2>
+            <p>Domains</p>
+        </div>
+        <div class="stat-box">
+            <h2>2024–2026</h2>
+            <p>Portfolio Timeline</p>
+        </div>
+    </section>
+
+    <!-- FEATURED -->
     <section class="project-section">
+        <div class="featured-title">
+            <h2>⭐ Featured Projects</h2>
+            <p>Selected projects that best demonstrate my analytical thinking, business problem-solving, and technical skills.</p>
+        </div>
+
         <div class="project-grid">
 
-            <!-- CUSTOMER CHURN -->
-            <div class="project-card">
+            <!-- 1. CHURN -->
+            <div class="project-card featured">
                 <img src="https://nico-alfianto.github.io/customer-churn-analysis/images/churn_distribution.png" 
-                     alt="Deskripsi Project Lu" 
+                     alt="Customer Churn Analysis Dashboard" 
                      class="project-img">
-
                 <h3>Customer Churn Analysis</h3>
-                <span>Data Analytics</span>
-
-                <p>Analyzed telecom customer behavior using Exploratory Data Analysis to identify churn factors and customer retention strategies.</p>
-                
+                <span class="project-category">Data Analytics | Telco 7,032 Customers</span>
+                <p>Analyzed 7,032 telecom customers to identify churn drivers. Discovered that Month-to-Month customers churn 15x more than Two-Year contracts and proposed four business retention strategies.</p>
                 <div class="tech">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>Seaborn</span>
-                    <span>Google Colab</span>
+                    <span>Python</span><span>Pandas</span><span>Seaborn</span><span>CRISP-DM</span>
                 </div>
-                
-                <a href="https://nico-alfianto.github.io/customer-churn-analysis" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/customer-churn-analysis" target="_blank" class="project-btn">View Dashboard</a>
+                    <a href="#" target="_blank" class="project-btn secondary">GitHub</a>
+                </div>
             </div>
 
-            <!-- CUSTOMER VALUE -->
-            <div class="project-card">
+            <!-- 2. CUSTOMER VALUE -->
+            <div class="project-card featured">
                 <img src="https://nico-alfianto.github.io/customer-value-analysis-rfm-logistic-regression/img/customer.png" 
-                     alt="Deskripsi Project Lu" 
+                     alt="Customer Value Analysis Dashboard" 
                      class="project-img">
                 <h3>Customer Value Analysis</h3>
-                <span>Machine Learning</span>
-
-                <p>Customer segmentation using RFM Analysis combined with Logistic Regression to predict high-value customers.</p>
-
+                <span class="project-category">Machine Learning | UK Retail £8.91M</span>
+                <p>Segmented 4,338 UK retail customers using RFM Analysis and Logistic Regression. Found that 33.3% of customers generate 84.9% of total revenue while building a predictive model for identifying high-value customers.</p>
                 <div class="tech">
-                    <span>Python</span>
-                    <span>RFM Analysis</span>
-                    <span>Scikit-Learn</span>
-                    <span>Logistic Regression</span>
+                    <span>Python</span><span>RFM</span><span>Scikit-Learn</span><span>SQL</span>
                 </div>
-
-                <a href="https://nico-alfianto.github.io/customer-value-analysis-rfm-logistic-regression" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/customer-value-analysis-rfm-logistic-regression" target="_blank" class="project-btn">View Project</a>
+                    <a href="#" target="_blank" class="project-btn secondary">Report PDF</a>
+                </div>
             </div>
 
-            <!-- SALES -->
-            <div class="project-card">
+            <!-- 3. SALES -->
+            <div class="project-card featured">
                 <img src="https://nico-alfianto.github.io/sales-performance-analysis/images/1.png" 
-                     alt="Deskripsi Project Lu" 
+                     alt="Sales Performance Dashboard" 
                      class="project-img">
                 <h3>Sales Performance Analysis</h3>
-                <span>Business Analytics</span>
-
-                <p>Analyzed retail transaction data to discover sales trends, profitability drivers, and regional business insights.</p>
-
+                <span class="project-category">Business Analytics | Superstore $2.29M</span>
+                <p>Analyzed $2.29M retail sales across 9,994 transactions. Identified Technology as the highest-profit category and uncovered low-margin opportunities within Furniture.</p>
                 <div class="tech">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>Matplotlib</span>
-                    <span>EDA</span>
+                    <span>Python</span><span>Pandas</span><span>Matplotlib</span><span>EDA</span>
                 </div>
-
-                <a href="https://nico-alfianto.github.io/sales-performance-analysis" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/sales-performance-analysis" target="_blank" class="project-btn">View Dashboard</a>
+                    <a href="#" target="_blank" class="project-btn secondary">Report PDF</a>
+                </div>
             </div>
 
-            <!-- TOURISM ML -->
-            <div class="project-card">
-                <img src="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree/results/confusion.png" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Tourism Recommendation System</h3>
-                <span>Machine Learning</span>
-
-                <p>Tourism destination classification system using CRISP-DM methodology and Decision Tree algorithm.</p>
-
-                <div class="tech">
-                    <span>Python</span>
-                    <span>Scikit-Learn</span>
-                    <span>Decision Tree</span>
-                    <span>CRISP-DM</span>
-                </div>
-
-                <a href="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
-            </div>
-
-            <!-- IoT TOURISM SATISFACTION ANALYSIS -->
-            <div class="project-card">
+            <!-- 4. IOT -->
+            <div class="project-card featured">
                 <img src="https://nico-alfianto.github.io/iot-tourism-analysis/qqplot_residual.png" 
-                     alt="Deskripsi Project Lu" 
+                     alt="IoT Tourism Satisfaction Analysis" 
                      class="project-img">
                 <h3>IoT Tourism Satisfaction Analysis</h3>
-                <span>Data Analytics | Multiple Linear Regression</span>
-
-                <p>Analyzed the impact of visitor count, resource utilization rate, and environmental factors such as temperature, air quality, and noise level on tourist satisfaction. Used a 1000-row IoT sensor dataset and RStudio. Achieved R² = 0.623 with all classical assumptions met: normality, no multicollinearity, no heteroskedasticity, and no autocorrelation.</p>
-                
+                <span class="project-category">Data Analytics | Multiple Linear Regression</span>
+                <p>Built a Multiple Linear Regression model using IoT tourism data. Achieved R² = 0.623 while satisfying normality, homoscedasticity, and autocorrelation assumptions to explain tourist satisfaction.</p>
                 <div class="tech">
-                    <span>RStudio</span>
-                    <span>Multiple Linear Regression</span>
-                    <span>IoT Data</span>
-                    <span>Statistical Testing</span>
-                    <span>Data Visualization</span>
+                    <span>RStudio</span><span>Regression</span><span>Statistics</span><span>IoT</span>
                 </div>
-                
-                <a href="https://nico-alfianto.github.io/iot-tourism-analysis" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/iot-tourism-analysis" target="_blank" class="project-btn">View Project</a>
+                    <a href="#" target="_blank" class="project-btn secondary">Research Paper</a>
+                </div>
             </div>
 
-
-
-            <!-- RATNALISA POS SYSTEM -->
-<div class="project-card">
-    <img src="https://nico-alfianto.github.io/ratnalisa-pos/preview.jpeg" 
-         alt="Ratnalisa Patient Registration System" 
-         class="project-img">
-    <h3>Ratnalisa - Patient Registration System</h3>
-    <span>Web Development | Capstone Project</span>
-
-    <p>Web-based patient registration system for Ratnalisa Clinical Laboratory using Prototyping Method. Features online registration, service selection, payment management, and admin dashboard. Includes complete system documentation: ERD, LRS, and UML.</p>
-
-    <div class="tech">
-        <span>PHP</span>
-        <span>MySQL</span>
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-        <span>ERD</span>
-        <span>UML</span>
-    </div>
-
-    <a href="https://nico-alfianto.github.io/ratnalisa-pos" target="_blank" class="project-btn">
-        <i class="fa-solid fa-folder-open"></i> View Project
-    </a>
-</div>
-
-            <!-- PPDB ONLINE SMK AL GHAZALY -->
-            <div class="project-card">
-                <img src="https://ppdb.infinityfree.io/img/logo_smk.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>PPDB Online SMK Al Ghazaly</h3>
-                <span>Web Development | CodeIgniter 3</span>
-
-                <p>Developed an online student admission system for SMK Al Ghazaly Jakarta Utara. The system allows prospective students to register online anytime, check admission requirements, view procedures, and get registration proof with registration number. Includes admin panel for data verification.</p>
-
-                <div class="tech">
-                    <span>PHP</span>
-                    <span>CodeIgniter 3</span>
-                    <span>MySQL</span>
-                    <span>Bootstrap</span>
-                    <span>jQuery</span>
-                </div>
-                
-                <a href="https://ppdb.infinityfree.io/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Visit Website
-                </a>
-            </div>
-                
-            <!-- BALI WEBSITE -->
-            <div class="project-card">
-                <img src="https://raw.githubusercontent.com/nico-alfianto/webbali-tourism-website/main/screenshots/home.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Bali Tourism Website</h3>
-                <span>Web Development</span>
-
-                <p>Responsive tourism website that showcases Bali destinations, culture, traditional food, and travel information.</p>
-
-                <div class="tech">
-                    <span>PHP</span>
-                    <span>Tailwind CSS</span>
-                    <span>JavaScript</span>
-                    <span>Responsive UI</span>
-                </div>
-
-                <a href="https://webbali-demo.infinityfreeapp.com/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-                </a>
-            </div>
-
-            <!-- DATABASE -->
-            <div class="project-card">
-                <img src="https://nico-alfianto.github.io/music-streaming-playlist-database/images/erd.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Music Streaming Database</h3>
-                <span>Database Design</span>
-
-                <p>Designed relational database system for music streaming platform using ERD, LRS, and SQL implementation.</p>
-
-                <div class="tech">
-                    <span>MySQL</span>
-                    <span>SQL</span>
-                    <span>ERD</span>
-                    <span>LRS</span>
-                </div>
-
-                <a href="https://nico-alfianto.github.io/music-streaming-playlist-database" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
-            </div>
-
-            <!-- VIDEO GAME -->
-            <div class="project-card">
-                <img src="https://nico-alfianto.github.io/video-game-sales-analysis/images/platform_sales.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Video Game Sales Analysis</h3>
-                <span>Data Analytics</span>
-
-                <p>Exploratory Data Analysis to discover gaming market trends, sales performance, and regional insights.</p>
-
-                <div class="tech">
-                    <span>Python</span>
-                    <span>Pandas</span>
-                    <span>NumPy</span>
-                    <span>Visualization</span>
-                </div>
-
-                <a href="https://nico-alfianto.github.io/video-game-sales-analysis" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
-            </div>
-
-            <!-- PARKING -->
-            <div class="project-card">
-                <img src="https://nico-alfianto.github.io/Parkir-Tunai-Python/images/dashboard.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Parking Management System</h3>
-                <span>Python Programming</span>
-
-                <p>CLI-based parking management application with vehicle management, fee calculation, and reporting features.</p>
-
-                <div class="tech">
-                    <span>Python</span>
-                    <span>CLI</span>
-                    <span>PrettyTable</span>
-                    <span>Logic Programming</span>
-                </div>
-
-                <a href="https://nico-alfianto.github.io/Parkir-Tunai-Python" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
-            </div>
-
-
-            <!-- ASSISTENTOUR FLUTTER DEMO -->
-<div class="project-card">
-    <img src="https://nico-alfianto.github.io/assisten_tour/assets/img/banner1.jpg" 
-         alt="Assistant Tour Flutter Demo" 
-         class="project-img">
-    <h3>Assistant Tour - Flutter Demo</h3>
-    <span>Mobile App + Web Demo</span>
-
-    <p>A responsive web version of the Flutter Assistant Tour app. A tourism booking app for Indonesia with 1:1 features from Flutter: Login, Booking, Payment, Boarding Pass, and Reviews. Uses LocalStorage for data, works offline.</p>
-
-    <div class="tech">
-        <span>Flutter</span>
-        <span>Dart</span>
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>Vanilla JS</span>
-        <span>LocalStorage</span>
-    </div>
-
-    <a href="https://nico-alfianto.github.io/assisten-tour-flutter-demo/home.html" target="_blank" class="project-btn">
-        <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-    </a>
-</div>
-
-            <!-- ASSISTENTOUR STLC TESTING -->
-            <div class="project-card">
-                <img src="https://webasisstentour.rf.gd/assets/static/images/logo/asisten.png" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Assistentour Backend Website Testing</h3>
-                <span>Software Quality Assurance | STLC | Selenium</span>
-
-                <p>Executed full Software Testing Life Cycle for Assistentour tourism website. Developed 28 test cases and automated testing using Selenium WebDriver. Tested core modules including Dashboard, Booking, User, and Destination. Achieved 82.1% success rate and documented 5 critical UI bugs with recommendations.</p>
-                
-                <div class="tech">
-                    <span>STLC</span>
-                    <span>Selenium WebDriver</span>
-                    <span>Functional Testing</span>
-                    <span>Test Planning</span>
-                    <span>Bug Reporting</span>
-                </div>
-                
-                <a href="https://nico-alfianto.github.io/assistentour-stlc-testing" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Report
-                </a>
-            </div>
-
-            <!-- HOUSE RENTAL APP PROTOTYPE -->
-            <div class="project-card">
-                <img src="https://play-lh.googleusercontent.com/lzuYvKiNnlX2iat0wYisXqO0lqBsQkPOMhNLvMJLuknXcwlvYI92as_ZJz25DOTT2G5te-nngf9rnsliiFx5w-Y" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>House Rental App Prototype</h3>
-                <span>UI/UX Design & Product Design</span>
-
-                <p>Designed a house rental application prototype to help users find homes that match their needs and budget more efficiently. Conducted user research using Design Thinking and FGD to define features like location-based search, transparent payment, and interactive maps to improve user satisfaction.</p>
-                
-                <div class="tech">
-                    <span>Figma</span>
-                    <span>Design Thinking</span>
-                    <span>UI Guidelines</span>
-                    <span>FGD Research</span>
-                </div>
-                
-                <a href="https://www.figma.com/proto/Yxqy0jKn1RTXU1UHzxDLs9/Aplikasi-rental-rumah?node-id=0-1&t=qbpWSXmC88QRk538-1" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Prototype
-                </a>
-            </div>
-
-            <!-- CUSTOMER FEEDBACK SENTIMENT ANALYZER -->
-            <div class="project-card">
+            <!-- 5. IBM WATSONX -->
+            <div class="project-card featured">
                 <img src="https://nico-alfianto.github.io/sentiment-analyzer-ibm-bob/prompt%20ibm%20bob.png" 
-                     alt="Deskripsi Project Lu" 
+                     alt="IBM watsonx AI Agent" 
                      class="project-img">
-                <h3>Customer Feedback Sentiment Analyzer AI Agent Using IBM watsonx For UMKM Indonesia</h3>
-                <span>AI Agent | NLP | IBM watsonx</span>
-
-                <p>An AI Agent powered by IBM watsonx for Indonesian MSMEs. Automatically analyzes customer feedback from Google Reviews, Shopee, Instagram, and more. Outputs sentiment classification as Positive/Negative/Neutral + Reason + Actionable recommendations to improve service quality.</p>
-                    
+                <h3>Customer Feedback Sentiment Analyzer AI Agent</h3>
+                <span class="project-category">AI | NLP | IBM watsonx</span>
+                <p>Developed an AI Agent using IBM watsonx Granite to classify customer sentiment and generate actionable recommendations for Indonesian MSMEs from Google Reviews and Shopee data.</p>
                 <div class="tech">
-                    <span>IBM watsonx</span>
-                    <span>Granite-3-8B</span>
-                    <span>Prompt Engineering</span>
-                    <span>NLP</span>
+                    <span>IBM watsonx</span><span>Granite-3-8B</span><span>NLP</span><span>Prompt Engineering</span>
                 </div>
-                    
-                <a href="https://nico-alfianto.github.io/sentiment-analyzer-ibm-bob/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/sentiment-analyzer-ibm-bob/" target="_blank" class="project-btn">View Project</a>
+                    <a href="#" target="_blank" class="project-btn secondary">GitHub</a>
+                </div>
             </div>
 
-            <!-- CUSTOMER SENTIMENT ANALYZER -->
-            <div class="project-card">
-                <img src="https://nico-alfianto.github.io/customer-sentiment-analyzer/ss/flow.png" 
-                     alt="Deskripsi Project Lu" 
+            <!-- 6. SQA -->
+            <div class="project-card featured">
+                <img src="https://webasisstentour.rf.gd/assets/static/images/logo/asisten.png" 
+                     alt="Assistentour SQA Testing" 
                      class="project-img">
-                <h3>Customer Feedback Sentiment Analyzer for Laptop Reviews Using Langflow and Google Gemini</h3>
-                <span>AI / NLP</span>
-
-                <p>AI-powered system built with Langflow and Google Gemini to analyze laptop customer reviews from CSV files. Automatically classifies sentiment, extracts themes, and generates business insights for decision making.</p>
-
+                <h3>Assistentour STLC Testing</h3>
+                <span class="project-category">Software Quality Assurance | Selenium</span>
+                <p>Executed Software Testing Life Cycle using Selenium WebDriver. Created 28 test cases, achieved an 82.1% execution success rate, and documented five critical UI issues.</p>
                 <div class="tech">
-                    <span>Langflow</span>
-                    <span>Google Gemini</span>
-                    <span>Python</span>
-                    <span>CSV</span>
+                    <span>Selenium</span><span>STLC</span><span>Testing</span><span>Bug Report</span>
                 </div>
-
-                <a href="https://nico-alfianto.github.io/customer-sentiment-analyzer" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Project
-                </a>
-            </div>
-
-            <div class="project-card">
-                <img src="https://images.unsplash.com/photo-1510707577719-ae7c14805e3a?q=80&w=400" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Digital Coffee Shop</h3>
-                <span>Web Development</span>
-                <p>Digital website for a coffee shop with an interactive menu and simple ordering system.</p>
-                <div class="tech">
-                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                <div class="project-links">
+                    <a href="https://nico-alfianto.github.io/assistentour-stlc-testing" target="_blank" class="project-btn">View Report</a>
+                    <a href="#" target="_blank" class="project-btn secondary">Test Cases</a>
                 </div>
-                <a href="https://nico-alfianto.github.io/kedai-kopi-digital/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-                </a>
-            </div>
-
-            <div class="project-card">
-                <img src="https://radarcirebon.disway.id/upload/c26cb29648b4a7e09c3d185a75b007b6.jpg" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Motor Service</h3>
-                <span>Web Development</span>
-                <p>Landing page for a motorbike service workshop with service information and online booking.</p>
-                <div class="tech">
-                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                </div>
-                <a href="https://nico-alfianto.github.io/servis-motor/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-                </a>
-            </div>
-
-            <div class="project-card">
-                <img src="https://images-platform.99static.com/8QnXcN6DRaE1ybz0F6GrbJ15nyo=/100x105:900x905/500x500/top/smart/99designs-contests-attachments/82/82682/attachment_82682137" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>To-Do List App</h3>
-                <span>Web Development</span>
-                <p>Simple to-do list application to record and manage daily tasks.</p>
-                <div class="tech">
-                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                </div>
-                <a href="https://nico-alfianto.github.io/todo-list/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-                </a>
-            </div>
-
-            <!-- TAMBAHAN 4: TES KEPRIBADIAN -->
-            <div class="project-card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcGWEVgaV1UC5e_ccgHxT-Zr5hMJMqdND2FSUwvTK1e1dkGTUxE5upC6NW&s=10" 
-                     alt="Deskripsi Project Lu" 
-                     class="project-img">
-                <h3>Personality Test</h3>
-                <span>Web Development</span>
-                <p>Interactive personality test web app with instant results in the browser.</p>
-                <div class="tech">
-                    <span>HTML</span><span>CSS</span><span>JavaScript</span>
-                </div>
-                <a href="https://nico-alfianto.github.io/tes-kepribadian/" target="_blank" class="project-btn">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i> View Web Demo
-                </a>
             </div>
 
         </div>
     </section>
 
-    <footer>
-        <p>© 2026 Nico Alfianto. Built with ❤️ using HTML, CSS & JavaScript.</p>
-    </footer>
+    <!-- ALL PROJECTS -->
+    <section class="project-section" id="all-projects">
+        <div class="featured-title">
+            <h2>📁 All Projects</h2>
+            <p>Additional academic, web development, database, mobile, and programming projects.</p>
+        </div>
 
+        <div class="project-grid">
+
+            <!-- RATNALISA -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/ratnalisa-pos/preview.jpeg" 
+                     alt="Ratnalisa Patient Registration System" 
+                     class="project-img">
+                <h3>Ratnalisa - Patient Registration System</h3>
+                <span class="project-category">Web Development | Capstone</span>
+                <p>Web-based patient registration with ERD, LRS, UML. Features online booking, payment, and admin dashboard using Prototyping Method.</p>
+                <div class="tech"><span>PHP</span><span>MySQL</span><span>ERD</span><span>UML</span></div>
+                <a href="https://nico-alfianto.github.io/ratnalisa-pos" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <!-- MUSIC DB -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/music-streaming-playlist-database/images/erd.jpg" 
+                     alt="Music Streaming Database ERD" 
+                     class="project-img">
+                <h3>Music Streaming Database</h3>
+                <span class="project-category">Database Design</span>
+                <p>Normalized MySQL database with 6 tables, ERD, LRS, and CRUD operations for music streaming platform.</p>
+                <div class="tech"><span>MySQL</span><span>SQL</span><span>ERD</span><span>3NF</span></div>
+                <a href="https://nico-alfianto.github.io/music-streaming-playlist-database" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <!-- TOURISM ML -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree/results/confusion.png" 
+                     alt="Tourism Recommendation System" 
+                     class="project-img">
+                <h3>Tourism Recommendation System</h3>
+                <span class="project-category">Machine Learning</span>
+                <p>Destination classification using CRISP-DM and Decision Tree. Accuracy 41% with 80% recall on high-rated destinations.</p>
+                <div class="tech"><span>Python</span><span>Scikit-Learn</span><span>Decision Tree</span></div>
+                <a href="https://nico-alfianto.github.io/crisp-dm-tourism-recommendation-decision-tree" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <!-- VIDEO GAME -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/video-game-sales-analysis/images/platform_sales.jpg" 
+                     alt="Video Game Sales Dashboard" 
+                     class="project-img">
+                <h3>Video Game Sales Analysis</h3>
+                <span class="project-category">Data Analytics</span>
+                <p>EDA on 16,500+ records. Found GameBoy as top platform and 2008-2010 as peak sales period globally.</p>
+                <div class="tech"><span>Python</span><span>Pandas</span><span>Visualization</span></div>
+                <a href="https://nico-alfianto.github.io/video-game-sales-analysis" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <!-- PARKING -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/Parkir-Tunai-Python/images/dashboard.jpg" 
+                     alt="Parking Management System" 
+                     class="project-img">
+                <h3>Parking Management System</h3>
+                <span class="project-category">Python CLI</span>
+                <p>CLI application for vehicle entry, exit, fee calculation, and daily reports using PrettyTable.</p>
+                <div class="tech"><span>Python</span><span>CLI</span><span>Logic</span></div>
+                <a href="https://nico-alfianto.github.io/Parkir-Tunai-Python" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+            <!-- PPDB -->
+            <div class="project-card">
+                <img src="https://ppdb.infinityfree.io/img/logo_smk.jpg" 
+                     alt="PPDB Online System" 
+                     class="project-img">
+                <h3>PPDB Online SMK Al Ghazaly</h3>
+                <span class="project-category">Web Development</span>
+                <p>Online student admission system with CodeIgniter 3. Registration, verification, and admin panel.</p>
+                <div class="tech"><span>PHP</span><span>CodeIgniter</span><span>MySQL</span></div>
+                <a href="https://ppdb.infinityfree.io/" target="_blank" class="project-btn">Visit Website</a>
+            </div>
+
+            <!-- BALI -->
+            <div class="project-card">
+                <img src="https://raw.githubusercontent.com/nico-alfianto/webbali-tourism-website/main/screenshots/home.jpg" 
+                     alt="Bali Tourism Website" 
+                     class="project-img">
+                <h3>Bali Tourism Website</h3>
+                <span class="project-category">Web Development</span>
+                <p>Responsive website showcasing Bali destinations, culture, and travel information.</p>
+                <div class="tech"><span>PHP</span><span>Tailwind</span><span>JavaScript</span></div>
+                <a href="https://webbali-demo.infinityfreeapp.com/" target="_blank" class="project-btn">View Demo</a>
+            </div>
+
+            <!-- FLUTTER DEMO -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/assisten_tour/assets/img/banner1.jpg" 
+                     alt="Assistant Tour Flutter Demo" 
+                     class="project-img">
+                <h3>Assistant Tour - Flutter Demo</h3>
+                <span class="project-category">Mobile Web</span>
+                <p>Responsive web version of Flutter tourism app with booking, payment, and boarding pass features.</p>
+                <div class="tech"><span>Flutter</span><span>HTML5</span><span>LocalStorage</span></div>
+                <a href="https://nico-alfianto.github.io/assisten-tour-flutter-demo/home.html" target="_blank" class="project-btn">View Demo</a>
+            </div>
+
+            <!-- GEMINI SENTIMENT -->
+            <div class="project-card">
+                <img src="https://nico-alfianto.github.io/customer-sentiment-analyzer/ss/flow.png" 
+                     alt="Customer Sentiment Analyzer Gemini" 
+                     class="project-img">
+                <h3>Customer Sentiment Analyzer - Gemini</h3>
+                <span class="project-category">AI | NLP</span>
+                <p>AI system using Langflow and Google Gemini to analyze laptop reviews and generate business insights.</p>
+                <div class="tech"><span>Langflow</span><span>Gemini</span><span>Python</span></div>
+                <a href="https://nico-alfianto.github.io/customer-sentiment-analyzer" target="_blank" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer><p>© 2026 Nico Alfianto. Built with ❤️ using HTML, CSS & JavaScript.</p></footer>
     <script src="assets/js/script.js"></script>
 </body>
-
-    </html>
+</html>
