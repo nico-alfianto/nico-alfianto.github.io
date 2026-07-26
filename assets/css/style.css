@@ -335,3 +335,21 @@ to{ opacity:1; transform:translateY(0); }
 }
 .badge i { font-size: 18px; color: #ff6b00; }
 .badge:hover i { color: #fff; }
+
+
+/* FIX: BALIKIN WARNA CARD KE GELAP */
+.project-card{
+    background: #1e293b !important; /* biru gelap */
+    border: 1px solid rgba(255,255,255,.08) !important;
+    color: #f8fafc !important;
+}
+
+.project-card h3,
+.project-card p{
+    color: #f8fafc !important;
+}
+
+.project-card > span{
+    background: linear-gradient(135deg, #8b5cf6, #3b82f6) !important;
+    color: white !important;
+}
